@@ -1,10 +1,10 @@
 [
   {
     "date": "2026-06-01",
-    "epoch": 1570,
+    "epoch": 1571,
     "nakamoto_liveness": 23,
     "nakamoto_safety": 94,
-    "gini": 0.3201,
+    "gini": 0.3202,
     "hhi": 200,
     "top10_share_pct": 24.53,
     "active_validators": 200,
