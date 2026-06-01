@@ -1,0 +1,71 @@
+{
+  "schema": "monscope.mip-adoption.v1",
+  "captured_at": "2026-05-23T17:55:58.824Z",
+  "mip2": {
+    "thresholdBytes": 24576,
+    "totalContractsScanned": 66,
+    "contractsAboveThreshold": [],
+    "sizeDistribution": [
+      {
+        "label": "< 2KB",
+        "minBytes": 0,
+        "maxBytes": 2048,
+        "count": 65
+      },
+      {
+        "label": "2-4KB",
+        "minBytes": 2048,
+        "maxBytes": 4096,
+        "count": 0
+      },
+      {
+        "label": "4-8KB",
+        "minBytes": 4096,
+        "maxBytes": 8192,
+        "count": 0
+      },
+      {
+        "label": "8-16KB",
+        "minBytes": 8192,
+        "maxBytes": 16384,
+        "count": 1
+      },
+      {
+        "label": "16-24KB",
+        "minBytes": 16384,
+        "maxBytes": 24576,
+        "count": 0
+      },
+      {
+        "label": "24-48KB",
+        "minBytes": 24576,
+        "maxBytes": 49152,
+        "count": 0
+      },
+      {
+        "label": "48-128KB",
+        "minBytes": 49152,
+        "maxBytes": 131072,
+        "count": 0
+      },
+      {
+        "label": "≥ 128KB",
+        "minBytes": 131072,
+        "maxBytes": null,
+        "count": 0
+      }
+    ],
+    "largestObservedSize": 12525,
+    "totalCodeBytes": 81365,
+    "lastProcessedBlock": 76480999,
+    "earliestScannedBlock": 76478000
+  },
+  "mip4": {
+    "precompile": "0x0000000000000000000000000000000000001001",
+    "totalCalls": 0,
+    "dailyCounts": [],
+    "uniqueCallers": 0,
+    "topCallers": [],
+    "lastProcessedBlock": 76480999
+  }
+}

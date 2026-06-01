@@ -1,0 +1,18 @@
+[
+  {
+    "date": "2026-06-01",
+    "epoch": 1569,
+    "nakamoto_liveness": 23,
+    "nakamoto_safety": 94,
+    "gini": 0.3201,
+    "hhi": 199,
+    "top10_share_pct": 24.52,
+    "active_validators": 200,
+    "commission_at_vdp_cap": 169,
+    "foundation_share_pct": 74.04,
+    "foundation_total_mon": 11250000000,
+    "foundation_validators_receiving": 197,
+    "majority_dependent": 188,
+    "floor_vulnerable": 171
+  }
+]
