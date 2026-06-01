@@ -7,11 +7,11 @@ this repository is the durable, citable record of the underlying data.
 
 ## Layout
 
-- `decentralization/` — daily `YYYY-MM-DD.json` snapshots, `latest.json`,
+- `decentralization/` - daily `YYYY-MM-DD.json` snapshots, `latest.json`,
   and `series.json` (compact headline time-series).
-- `mip-adoption/` — daily `YYYY-MM-DD.json` snapshots, `latest.json`, `state.json`,
+- `mip-adoption/` - daily `YYYY-MM-DD.json` snapshots, `latest.json`, `state.json`,
   and `contracts.ndjson.gz` (compressed contract enumeration).
-- `foundation/` — daily `YYYY-MM-DD.json` per-validator MF breakdown, `latest.json`,
+- `foundation/` - daily `YYYY-MM-DD.json` per-validator MF breakdown, `latest.json`,
   and `graph.json` (delegation-map nodes/links).
 
 Each record carries a `schema` string and (going forward) a `provenance` stamp
@@ -19,7 +19,7 @@ Each record carries a `schema` string and (going forward) a `provenance` stamp
 
 ## License & attribution
 
-Data is licensed under [CC BY 4.0](LICENSE) — free to use with attribution to
+Data is licensed under [CC BY 4.0](LICENSE) - free to use with attribution to
 **monscope** (https://monscope.xyz).
 
 The Foundation attribution is **forensically identified** (EOAs funded by a
