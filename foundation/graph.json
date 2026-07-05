@@ -1,16 +1,16 @@
 {
   "schema": "monscope.foundation.graph.v1",
-  "generatedAt": "2026-06-28T05:53:48.980Z",
-  "snapshot_date": "2026-06-28",
+  "generatedAt": "2026-07-05T05:28:44.356Z",
+  "snapshot_date": "2026-07-05",
   "distributor": "0xf12cea359512b8ccd5e7b33b3d308a174837250c",
   "fleet_hash": "sha256:713ad26e158c6d69",
   "summary": {
-    "totalMFStakeMON": 11225000000,
-    "mfShareOfActivePct": 73.53,
+    "totalMFStakeMON": 11010000000,
+    "mfShareOfActivePct": 73.08,
     "walletCount": 20,
-    "validatorsReceiving": 196,
-    "majorityDependentCount": 188,
-    "floorVulnerableCount": 170
+    "validatorsReceiving": 194,
+    "majorityDependentCount": 186,
+    "floorVulnerableCount": 168
   },
   "nodes": [
     {
@@ -19,15 +19,7 @@
       "kind": "validator",
       "valueMON": 90000000,
       "validatorId": 123,
-      "mfSharePct": 48.12
-    },
-    {
-      "id": "val:72",
-      "label": "01node",
-      "kind": "validator",
-      "valueMON": 90000000,
-      "validatorId": 72,
-      "mfSharePct": 93.92
+      "mfSharePct": 45
     },
     {
       "id": "val:10",
@@ -35,15 +27,15 @@
       "kind": "validator",
       "valueMON": 90000000,
       "validatorId": 10,
-      "mfSharePct": 91.61
+      "mfSharePct": 91.46
     },
     {
-      "id": "val:128",
-      "label": "Laine ❤️ by SOL Strategies",
+      "id": "val:72",
+      "label": "01node",
       "kind": "validator",
       "valueMON": 90000000,
-      "validatorId": 128,
-      "mfSharePct": 99.09
+      "validatorId": 72,
+      "mfSharePct": 94.01
     },
     {
       "id": "val:43",
@@ -51,7 +43,7 @@
       "kind": "validator",
       "valueMON": 90000000,
       "validatorId": 43,
-      "mfSharePct": 98.31
+      "mfSharePct": 98.3
     },
     {
       "id": "val:187",
@@ -75,7 +67,7 @@
       "kind": "validator",
       "valueMON": 80000000,
       "validatorId": 3,
-      "mfSharePct": 31.18
+      "mfSharePct": 31.1
     },
     {
       "id": "val:6",
@@ -83,7 +75,7 @@
       "kind": "validator",
       "valueMON": 80000000,
       "validatorId": 6,
-      "mfSharePct": 55.51
+      "mfSharePct": 55.32
     },
     {
       "id": "val:5",
@@ -91,7 +83,7 @@
       "kind": "validator",
       "valueMON": 80000000,
       "validatorId": 5,
-      "mfSharePct": 50.34
+      "mfSharePct": 50.3
     },
     {
       "id": "val:4",
@@ -99,7 +91,7 @@
       "kind": "validator",
       "valueMON": 80000000,
       "validatorId": 4,
-      "mfSharePct": 69.76
+      "mfSharePct": 69.63
     },
     {
       "id": "val:7",
@@ -107,7 +99,7 @@
       "kind": "validator",
       "valueMON": 80000000,
       "validatorId": 7,
-      "mfSharePct": 82.09
+      "mfSharePct": 82.15
     },
     {
       "id": "val:102",
@@ -115,15 +107,7 @@
       "kind": "validator",
       "valueMON": 75000000,
       "validatorId": 102,
-      "mfSharePct": 40.97
-    },
-    {
-      "id": "val:12",
-      "label": "Bitwise Onchain Solutions",
-      "kind": "validator",
-      "valueMON": 75000000,
-      "validatorId": 12,
-      "mfSharePct": 65.39
+      "mfSharePct": 39.99
     },
     {
       "id": "val:9",
@@ -131,15 +115,7 @@
       "kind": "validator",
       "valueMON": 75000000,
       "validatorId": 9,
-      "mfSharePct": 66.27
-    },
-    {
-      "id": "val:154",
-      "label": "forthenads",
-      "kind": "validator",
-      "valueMON": 75000000,
-      "validatorId": 154,
-      "mfSharePct": 71.74
+      "mfSharePct": 66.36
     },
     {
       "id": "val:11",
@@ -147,23 +123,23 @@
       "kind": "validator",
       "valueMON": 75000000,
       "validatorId": 11,
-      "mfSharePct": 68.8
+      "mfSharePct": 68.59
     },
     {
-      "id": "val:76",
-      "label": "Luganodes",
+      "id": "val:12",
+      "label": "Bitwise Onchain Solutions",
       "kind": "validator",
       "valueMON": 75000000,
-      "validatorId": 76,
-      "mfSharePct": 88.31
+      "validatorId": 12,
+      "mfSharePct": 65.33
     },
     {
-      "id": "val:172",
-      "label": "Allnodes",
+      "id": "val:154",
+      "label": "forthenads",
       "kind": "validator",
       "valueMON": 75000000,
-      "validatorId": 172,
-      "mfSharePct": 85.19
+      "validatorId": 154,
+      "mfSharePct": 71.97
     },
     {
       "id": "val:170",
@@ -171,7 +147,23 @@
       "kind": "validator",
       "valueMON": 75000000,
       "validatorId": 170,
-      "mfSharePct": 87.97
+      "mfSharePct": 87.83
+    },
+    {
+      "id": "val:172",
+      "label": "Allnodes",
+      "kind": "validator",
+      "valueMON": 75000000,
+      "validatorId": 172,
+      "mfSharePct": 85.17
+    },
+    {
+      "id": "val:76",
+      "label": "Luganodes",
+      "kind": "validator",
+      "valueMON": 75000000,
+      "validatorId": 76,
+      "mfSharePct": 88.29
     },
     {
       "id": "val:125",
@@ -179,23 +171,7 @@
       "kind": "validator",
       "valueMON": 75000000,
       "validatorId": 125,
-      "mfSharePct": 88.62
-    },
-    {
-      "id": "val:56",
-      "label": "L0vd",
-      "kind": "validator",
-      "valueMON": 75000000,
-      "validatorId": 56,
-      "mfSharePct": 93.02
-    },
-    {
-      "id": "val:78",
-      "label": "Validation Cloud",
-      "kind": "validator",
-      "valueMON": 75000000,
-      "validatorId": 78,
-      "mfSharePct": 89.94
+      "mfSharePct": 88.61
     },
     {
       "id": "val:114",
@@ -203,7 +179,23 @@
       "kind": "validator",
       "valueMON": 75000000,
       "validatorId": 114,
-      "mfSharePct": 89.52
+      "mfSharePct": 89.6
+    },
+    {
+      "id": "val:78",
+      "label": "Validation Cloud",
+      "kind": "validator",
+      "valueMON": 75000000,
+      "validatorId": 78,
+      "mfSharePct": 89.71
+    },
+    {
+      "id": "val:56",
+      "label": "L0vd",
+      "kind": "validator",
+      "valueMON": 75000000,
+      "validatorId": 56,
+      "mfSharePct": 92.94
     },
     {
       "id": "val:157",
@@ -211,7 +203,7 @@
       "kind": "validator",
       "valueMON": 75000000,
       "validatorId": 157,
-      "mfSharePct": 91.98
+      "mfSharePct": 92
     },
     {
       "id": "val:75",
@@ -219,23 +211,7 @@
       "kind": "validator",
       "valueMON": 75000000,
       "validatorId": 75,
-      "mfSharePct": 92.34
-    },
-    {
-      "id": "val:17",
-      "label": "Cosmostation",
-      "kind": "validator",
-      "valueMON": 75000000,
-      "validatorId": 17,
-      "mfSharePct": 93.27
-    },
-    {
-      "id": "val:98",
-      "label": "auri0x",
-      "kind": "validator",
-      "valueMON": 75000000,
-      "validatorId": 98,
-      "mfSharePct": 93.96
+      "mfSharePct": 92.48
     },
     {
       "id": "val:129",
@@ -246,12 +222,12 @@
       "mfSharePct": 95.18
     },
     {
-      "id": "val:133",
-      "label": "H2O Nodes",
+      "id": "val:98",
+      "label": "auri0x",
       "kind": "validator",
       "valueMON": 75000000,
-      "validatorId": 133,
-      "mfSharePct": 95.85
+      "validatorId": 98,
+      "mfSharePct": 93.96
     },
     {
       "id": "val:168",
@@ -259,7 +235,7 @@
       "kind": "validator",
       "valueMON": 75000000,
       "validatorId": 168,
-      "mfSharePct": 95.81
+      "mfSharePct": 96.01
     },
     {
       "id": "val:159",
@@ -267,7 +243,7 @@
       "kind": "validator",
       "valueMON": 75000000,
       "validatorId": 159,
-      "mfSharePct": 95.9
+      "mfSharePct": 96.1
     },
     {
       "id": "val:46",
@@ -278,36 +254,12 @@
       "mfSharePct": 96
     },
     {
-      "id": "val:25",
-      "label": "Twinstake",
+      "id": "val:133",
+      "label": "H2O Nodes",
       "kind": "validator",
       "valueMON": 75000000,
-      "validatorId": 25,
-      "mfSharePct": 98.47
-    },
-    {
-      "id": "val:94",
-      "label": "TrustedPoint",
-      "kind": "validator",
-      "valueMON": 75000000,
-      "validatorId": 94,
-      "mfSharePct": 99.2
-    },
-    {
-      "id": "val:152",
-      "label": "stakefish",
-      "kind": "validator",
-      "valueMON": 75000000,
-      "validatorId": 152,
-      "mfSharePct": 96.9
-    },
-    {
-      "id": "val:204",
-      "label": "LootGO",
-      "kind": "validator",
-      "valueMON": 75000000,
-      "validatorId": 204,
-      "mfSharePct": 99.15
+      "validatorId": 133,
+      "mfSharePct": 96.05
     },
     {
       "id": "val:26",
@@ -318,20 +270,44 @@
       "mfSharePct": 97.11
     },
     {
+      "id": "val:152",
+      "label": "stakefish",
+      "kind": "validator",
+      "valueMON": 75000000,
+      "validatorId": 152,
+      "mfSharePct": 96.9
+    },
+    {
+      "id": "val:25",
+      "label": "Twinstake",
+      "kind": "validator",
+      "valueMON": 75000000,
+      "validatorId": 25,
+      "mfSharePct": 98.45
+    },
+    {
+      "id": "val:94",
+      "label": "TrustedPoint",
+      "kind": "validator",
+      "valueMON": 75000000,
+      "validatorId": 94,
+      "mfSharePct": 99.2
+    },
+    {
+      "id": "val:204",
+      "label": "LootGO",
+      "kind": "validator",
+      "valueMON": 75000000,
+      "validatorId": 204,
+      "mfSharePct": 98.68
+    },
+    {
       "id": "val:181",
       "label": "LI.FI",
       "kind": "validator",
       "valueMON": 75000000,
       "validatorId": 181,
       "mfSharePct": 99.45
-    },
-    {
-      "id": "val:146",
-      "label": "RockX",
-      "kind": "validator",
-      "valueMON": 75000000,
-      "validatorId": 146,
-      "mfSharePct": 99.72
     },
     {
       "id": "val:189",
@@ -342,6 +318,22 @@
       "mfSharePct": 99.7
     },
     {
+      "id": "val:146",
+      "label": "RockX",
+      "kind": "validator",
+      "valueMON": 75000000,
+      "validatorId": 146,
+      "mfSharePct": 99.71
+    },
+    {
+      "id": "val:106",
+      "label": "HoodRun",
+      "kind": "validator",
+      "valueMON": 75000000,
+      "validatorId": 106,
+      "mfSharePct": 99.71
+    },
+    {
       "id": "val:73",
       "label": "1XP",
       "kind": "validator",
@@ -350,12 +342,20 @@
       "mfSharePct": 99.73
     },
     {
-      "id": "val:106",
-      "label": "HoodRun",
+      "id": "val:144",
+      "label": "Informal Systems",
       "kind": "validator",
       "valueMON": 75000000,
-      "validatorId": 106,
-      "mfSharePct": 99.72
+      "validatorId": 144,
+      "mfSharePct": 99.75
+    },
+    {
+      "id": "val:138",
+      "label": "HashKey Cloud",
+      "kind": "validator",
+      "valueMON": 75000000,
+      "validatorId": 138,
+      "mfSharePct": 99.79
     },
     {
       "id": "val:100",
@@ -364,14 +364,6 @@
       "valueMON": 75000000,
       "validatorId": 100,
       "mfSharePct": 99.74
-    },
-    {
-      "id": "val:144",
-      "label": "Informal Systems",
-      "kind": "validator",
-      "valueMON": 75000000,
-      "validatorId": 144,
-      "mfSharePct": 99.75
     },
     {
       "id": "val:206",
@@ -387,30 +379,6 @@
       "kind": "validator",
       "valueMON": 75000000,
       "validatorId": 136,
-      "mfSharePct": 99.82
-    },
-    {
-      "id": "val:138",
-      "label": "HashKey Cloud",
-      "kind": "validator",
-      "valueMON": 75000000,
-      "validatorId": 138,
-      "mfSharePct": 99.79
-    },
-    {
-      "id": "val:127",
-      "label": "Cogent ⚙️  by SOL Strategies",
-      "kind": "validator",
-      "valueMON": 75000000,
-      "validatorId": 127,
-      "mfSharePct": 99.82
-    },
-    {
-      "id": "val:31",
-      "label": "StakingCabin",
-      "kind": "validator",
-      "valueMON": 75000000,
-      "validatorId": 31,
       "mfSharePct": 99.82
     },
     {
@@ -430,12 +398,12 @@
       "mfSharePct": 99.86
     },
     {
-      "id": "val:54",
-      "label": "Chainode Tech",
+      "id": "val:31",
+      "label": "StakingCabin",
       "kind": "validator",
       "valueMON": 75000000,
-      "validatorId": 54,
-      "mfSharePct": 99.86
+      "validatorId": 31,
+      "mfSharePct": 99.82
     },
     {
       "id": "val:20",
@@ -446,11 +414,11 @@
       "mfSharePct": 99.86
     },
     {
-      "id": "val:143",
-      "label": "QuantNode",
+      "id": "val:54",
+      "label": "Chainode Tech",
       "kind": "validator",
       "valueMON": 75000000,
-      "validatorId": 143,
+      "validatorId": 54,
       "mfSharePct": 99.86
     },
     {
@@ -470,14 +438,6 @@
       "mfSharePct": 99.86
     },
     {
-      "id": "val:211",
-      "label": "Data Nexus",
-      "kind": "validator",
-      "valueMON": 75000000,
-      "validatorId": 211,
-      "mfSharePct": 99.86
-    },
-    {
       "id": "val:214",
       "label": "Lunar Strategy",
       "kind": "validator",
@@ -486,20 +446,28 @@
       "mfSharePct": 99.86
     },
     {
+      "id": "val:143",
+      "label": "QuantNode",
+      "kind": "validator",
+      "valueMON": 75000000,
+      "validatorId": 143,
+      "mfSharePct": 99.86
+    },
+    {
+      "id": "val:211",
+      "label": "Data Nexus",
+      "kind": "validator",
+      "valueMON": 75000000,
+      "validatorId": 211,
+      "mfSharePct": 99.86
+    },
+    {
       "id": "val:92",
       "label": "CMS Holdings",
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 92,
-      "mfSharePct": 15.23
-    },
-    {
-      "id": "val:16",
-      "label": "MonadVision",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 16,
-      "mfSharePct": 29.83
+      "mfSharePct": 15.21
     },
     {
       "id": "val:23",
@@ -507,7 +475,7 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 23,
-      "mfSharePct": 31.02
+      "mfSharePct": 30.99
     },
     {
       "id": "val:55",
@@ -515,7 +483,15 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 55,
-      "mfSharePct": 38.82
+      "mfSharePct": 38.65
+    },
+    {
+      "id": "val:16",
+      "label": "MonadVision",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 16,
+      "mfSharePct": 42.83
     },
     {
       "id": "val:36",
@@ -523,7 +499,7 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 36,
-      "mfSharePct": 52.87
+      "mfSharePct": 52.64
     },
     {
       "id": "val:191",
@@ -531,7 +507,7 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 191,
-      "mfSharePct": 58.73
+      "mfSharePct": 58.52
     },
     {
       "id": "val:39",
@@ -539,23 +515,7 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 39,
-      "mfSharePct": 74.12
-    },
-    {
-      "id": "val:71",
-      "label": "Firstset",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 71,
-      "mfSharePct": 75.68
-    },
-    {
-      "id": "val:162",
-      "label": "Stake Shark",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 162,
-      "mfSharePct": 78.55
+      "mfSharePct": 74.34
     },
     {
       "id": "val:51",
@@ -563,7 +523,15 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 51,
-      "mfSharePct": 77.92
+      "mfSharePct": 77.81
+    },
+    {
+      "id": "val:71",
+      "label": "Firstset",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 71,
+      "mfSharePct": 75.52
     },
     {
       "id": "val:58",
@@ -571,7 +539,15 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 58,
-      "mfSharePct": 78.99
+      "mfSharePct": 78.86
+    },
+    {
+      "id": "val:162",
+      "label": "Stake Shark",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 162,
+      "mfSharePct": 78.72
     },
     {
       "id": "val:110",
@@ -579,7 +555,7 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 110,
-      "mfSharePct": 89.69
+      "mfSharePct": 89.53
     },
     {
       "id": "val:88",
@@ -587,7 +563,15 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 88,
-      "mfSharePct": 81.34
+      "mfSharePct": 81.18
+    },
+    {
+      "id": "val:45",
+      "label": "Imperator.co",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 45,
+      "mfSharePct": 90.88
     },
     {
       "id": "val:105",
@@ -598,28 +582,12 @@
       "mfSharePct": 89.85
     },
     {
-      "id": "val:45",
-      "label": "Imperator.co",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 45,
-      "mfSharePct": 91.01
-    },
-    {
       "id": "val:112",
       "label": "Proof Group",
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 112,
-      "mfSharePct": 91.17
-    },
-    {
-      "id": "val:109",
-      "label": "zim.one",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 109,
-      "mfSharePct": 92.18
+      "mfSharePct": 91.04
     },
     {
       "id": "val:61",
@@ -627,7 +595,15 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 61,
-      "mfSharePct": 92.85
+      "mfSharePct": 92.8
+    },
+    {
+      "id": "val:109",
+      "label": "zim.one",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 109,
+      "mfSharePct": 92.17
     },
     {
       "id": "val:8",
@@ -635,7 +611,31 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 8,
-      "mfSharePct": 93.58
+      "mfSharePct": 93.54
+    },
+    {
+      "id": "val:48",
+      "label": "Nodes.Guru",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 48,
+      "mfSharePct": 93.69
+    },
+    {
+      "id": "val:139",
+      "label": "blockscape",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 139,
+      "mfSharePct": 93.99
+    },
+    {
+      "id": "val:151",
+      "label": "Simply Staking",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 151,
+      "mfSharePct": 93.91
     },
     {
       "id": "val:148",
@@ -654,28 +654,12 @@
       "mfSharePct": 94.36
     },
     {
-      "id": "val:48",
-      "label": "Nodes.Guru",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 48,
-      "mfSharePct": 95.08
-    },
-    {
       "id": "val:37",
       "label": "LakeStake",
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 37,
-      "mfSharePct": 95.5
-    },
-    {
-      "id": "val:139",
-      "label": "blockscape",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 139,
-      "mfSharePct": 93.99
+      "mfSharePct": 95.45
     },
     {
       "id": "val:53",
@@ -683,15 +667,23 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 53,
-      "mfSharePct": 95.54
+      "mfSharePct": 95.46
     },
     {
-      "id": "val:151",
-      "label": "Simply Staking",
+      "id": "val:82",
+      "label": "Huginn",
       "kind": "validator",
       "valueMON": 52500000,
-      "validatorId": 151,
-      "mfSharePct": 93.92
+      "validatorId": 82,
+      "mfSharePct": 97.46
+    },
+    {
+      "id": "val:28",
+      "label": "NodeStake",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 28,
+      "mfSharePct": 96.22
     },
     {
       "id": "val:29",
@@ -699,15 +691,7 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 29,
-      "mfSharePct": 96.4
-    },
-    {
-      "id": "val:35",
-      "label": "DeSpread",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 35,
-      "mfSharePct": 97.75
+      "mfSharePct": 96.33
     },
     {
       "id": "val:93",
@@ -715,7 +699,15 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 93,
-      "mfSharePct": 97.86
+      "mfSharePct": 97.73
+    },
+    {
+      "id": "val:35",
+      "label": "DeSpread",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 35,
+      "mfSharePct": 97.73
     },
     {
       "id": "val:160",
@@ -726,12 +718,28 @@
       "mfSharePct": 97.96
     },
     {
-      "id": "val:28",
-      "label": "NodeStake",
+      "id": "val:117",
+      "label": "Coinage x DAIC",
       "kind": "validator",
       "valueMON": 52500000,
-      "validatorId": 28,
-      "mfSharePct": 96.25
+      "validatorId": 117,
+      "mfSharePct": 97.97
+    },
+    {
+      "id": "val:167",
+      "label": "SenseiNode",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 167,
+      "mfSharePct": 98.06
+    },
+    {
+      "id": "val:63",
+      "label": "coinblitz.pro",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 63,
+      "mfSharePct": 98.11
     },
     {
       "id": "val:19",
@@ -742,28 +750,12 @@
       "mfSharePct": 98.19
     },
     {
-      "id": "val:82",
-      "label": "Huginn",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 82,
-      "mfSharePct": 97.48
-    },
-    {
-      "id": "val:117",
-      "label": "Coinage x DAIC",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 117,
-      "mfSharePct": 97.98
-    },
-    {
       "id": "val:21",
       "label": "Redundex",
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 21,
-      "mfSharePct": 98.16
+      "mfSharePct": 98.12
     },
     {
       "id": "val:42",
@@ -774,36 +766,12 @@
       "mfSharePct": 98.19
     },
     {
-      "id": "val:167",
-      "label": "SenseiNode",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 167,
-      "mfSharePct": 98.23
-    },
-    {
       "id": "val:87",
       "label": "Syncnode",
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 87,
       "mfSharePct": 98.27
-    },
-    {
-      "id": "val:111",
-      "label": "lux8net",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 111,
-      "mfSharePct": 98.45
-    },
-    {
-      "id": "val:63",
-      "label": "coinblitz.pro",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 63,
-      "mfSharePct": 98.23
     },
     {
       "id": "val:150",
@@ -814,12 +782,12 @@
       "mfSharePct": 98.28
     },
     {
-      "id": "val:30",
-      "label": "Spider Node 🕷️",
+      "id": "val:111",
+      "label": "lux8net",
       "kind": "validator",
       "valueMON": 52500000,
-      "validatorId": 30,
-      "mfSharePct": 98.57
+      "validatorId": 111,
+      "mfSharePct": 98.44
     },
     {
       "id": "val:14",
@@ -827,15 +795,15 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 14,
-      "mfSharePct": 98.59
+      "mfSharePct": 98.52
     },
     {
-      "id": "val:15",
-      "label": "Staker Space",
+      "id": "val:30",
+      "label": "Spider Node 🕷️",
       "kind": "validator",
       "valueMON": 52500000,
-      "validatorId": 15,
-      "mfSharePct": 98.64
+      "validatorId": 30,
+      "mfSharePct": 98.56
     },
     {
       "id": "val:208",
@@ -846,12 +814,20 @@
       "mfSharePct": 98.62
     },
     {
-      "id": "val:13",
-      "label": "kjnodes",
+      "id": "val:70",
+      "label": "F5 Nodes",
       "kind": "validator",
       "valueMON": 52500000,
-      "validatorId": 13,
-      "mfSharePct": 98.68
+      "validatorId": 70,
+      "mfSharePct": 98.65
+    },
+    {
+      "id": "val:15",
+      "label": "Staker Space",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 15,
+      "mfSharePct": 98.63
     },
     {
       "id": "val:86",
@@ -859,15 +835,15 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 86,
-      "mfSharePct": 98.69
+      "mfSharePct": 98.65
     },
     {
-      "id": "val:70",
-      "label": "F5 Nodes",
+      "id": "val:13",
+      "label": "kjnodes",
       "kind": "validator",
       "valueMON": 52500000,
-      "validatorId": 70,
-      "mfSharePct": 98.8
+      "validatorId": 13,
+      "mfSharePct": 98.66
     },
     {
       "id": "val:66",
@@ -878,12 +854,28 @@
       "mfSharePct": 98.85
     },
     {
+      "id": "val:215",
+      "label": "Pointgroup",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 215,
+      "mfSharePct": 98.97
+    },
+    {
+      "id": "val:198",
+      "label": "Metatarz",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 198,
+      "mfSharePct": 98.98
+    },
+    {
       "id": "val:153",
       "label": "xLabs",
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 153,
-      "mfSharePct": 99
+      "mfSharePct": 99.04
     },
     {
       "id": "val:68",
@@ -894,20 +886,12 @@
       "mfSharePct": 99.06
     },
     {
-      "id": "val:215",
-      "label": "Pointgroup",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 215,
-      "mfSharePct": 99.04
-    },
-    {
       "id": "val:81",
       "label": "Silk Nodes",
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 81,
-      "mfSharePct": 99.12
+      "mfSharePct": 99.11
     },
     {
       "id": "val:44",
@@ -918,12 +902,12 @@
       "mfSharePct": 99.2
     },
     {
-      "id": "val:198",
-      "label": "Metatarz",
+      "id": "val:207",
+      "label": "unityfarms",
       "kind": "validator",
       "valueMON": 52500000,
-      "validatorId": 198,
-      "mfSharePct": 99.22
+      "validatorId": 207,
+      "mfSharePct": 99.29
     },
     {
       "id": "val:190",
@@ -939,7 +923,15 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 69,
-      "mfSharePct": 99.32
+      "mfSharePct": 99.31
+    },
+    {
+      "id": "val:91",
+      "label": "Encapsulate",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 91,
+      "mfSharePct": 99.38
     },
     {
       "id": "val:194",
@@ -948,22 +940,6 @@
       "valueMON": 52500000,
       "validatorId": 194,
       "mfSharePct": 99.37
-    },
-    {
-      "id": "val:207",
-      "label": "unityfarms",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 207,
-      "mfSharePct": 99.32
-    },
-    {
-      "id": "val:91",
-      "label": "Encapsulate",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 91,
-      "mfSharePct": 99.41
     },
     {
       "id": "val:209",
@@ -982,14 +958,6 @@
       "mfSharePct": 99.43
     },
     {
-      "id": "val:156",
-      "label": "Pharus",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 156,
-      "mfSharePct": 99.44
-    },
-    {
       "id": "val:163",
       "label": "Chainflow",
       "kind": "validator",
@@ -998,12 +966,20 @@
       "mfSharePct": 99.45
     },
     {
+      "id": "val:156",
+      "label": "Pharus",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 156,
+      "mfSharePct": 99.44
+    },
+    {
       "id": "val:126",
       "label": "amonstaker",
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 126,
-      "mfSharePct": 99.48
+      "mfSharePct": 99.47
     },
     {
       "id": "val:89",
@@ -1038,20 +1014,12 @@
       "mfSharePct": 99.56
     },
     {
-      "id": "val:202",
-      "label": "MSC-Industries",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 202,
-      "mfSharePct": 99.59
-    },
-    {
       "id": "val:193",
       "label": "JustANode",
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 193,
-      "mfSharePct": 99.57
+      "mfSharePct": 99.56
     },
     {
       "id": "val:101",
@@ -1059,7 +1027,15 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 101,
-      "mfSharePct": 99.61
+      "mfSharePct": 99.6
+    },
+    {
+      "id": "val:202",
+      "label": "MSC-Industries",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 202,
+      "mfSharePct": 99.59
     },
     {
       "id": "val:201",
@@ -1075,23 +1051,7 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 121,
-      "mfSharePct": 99.63
-    },
-    {
-      "id": "val:103",
-      "label": "Validatus",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 103,
-      "mfSharePct": 99.63
-    },
-    {
-      "id": "val:60",
-      "label": "STAKEME",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 60,
-      "mfSharePct": 99.66
+      "mfSharePct": 99.62
     },
     {
       "id": "val:107",
@@ -1102,12 +1062,28 @@
       "mfSharePct": 99.65
     },
     {
+      "id": "val:103",
+      "label": "Validatus",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 103,
+      "mfSharePct": 99.62
+    },
+    {
       "id": "val:130",
       "label": "node101",
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 130,
-      "mfSharePct": 99.67
+      "mfSharePct": 99.66
+    },
+    {
+      "id": "val:60",
+      "label": "STAKEME",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 60,
+      "mfSharePct": 99.66
     },
     {
       "id": "val:41",
@@ -1118,6 +1094,14 @@
       "mfSharePct": 99.68
     },
     {
+      "id": "val:108",
+      "label": "CosmosSpaces",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 108,
+      "mfSharePct": 99.7
+    },
+    {
       "id": "val:183",
       "label": "Forest Staking",
       "kind": "validator",
@@ -1126,11 +1110,11 @@
       "mfSharePct": 99.7
     },
     {
-      "id": "val:108",
-      "label": "CosmosSpaces",
+      "id": "val:218",
+      "label": "LuckyResearch Labs",
       "kind": "validator",
       "valueMON": 52500000,
-      "validatorId": 108,
+      "validatorId": 218,
       "mfSharePct": 99.7
     },
     {
@@ -1142,22 +1126,6 @@
       "mfSharePct": 99.71
     },
     {
-      "id": "val:218",
-      "label": "LuckyResearch Labs",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 218,
-      "mfSharePct": 99.7
-    },
-    {
-      "id": "val:115",
-      "label": "r93AX Nodes",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 115,
-      "mfSharePct": 99.72
-    },
-    {
       "id": "val:145",
       "label": "FP Validated",
       "kind": "validator",
@@ -1166,11 +1134,11 @@
       "mfSharePct": 99.71
     },
     {
-      "id": "val:96",
-      "label": "NodesHub",
+      "id": "val:115",
+      "label": "r93AX Nodes",
       "kind": "validator",
       "valueMON": 52500000,
-      "validatorId": 96,
+      "validatorId": 115,
       "mfSharePct": 99.72
     },
     {
@@ -1182,12 +1150,12 @@
       "mfSharePct": 99.72
     },
     {
-      "id": "val:213",
-      "label": "AiNodes",
+      "id": "val:96",
+      "label": "NodesHub",
       "kind": "validator",
       "valueMON": 52500000,
-      "validatorId": 213,
-      "mfSharePct": 99.74
+      "validatorId": 96,
+      "mfSharePct": 99.72
     },
     {
       "id": "val:137",
@@ -1198,19 +1166,19 @@
       "mfSharePct": 99.73
     },
     {
-      "id": "val:74",
-      "label": "StakeUs",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 74,
-      "mfSharePct": 99.74
-    },
-    {
       "id": "val:50",
       "label": "[NODERS]",
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 50,
+      "mfSharePct": 99.74
+    },
+    {
+      "id": "val:74",
+      "label": "StakeUs",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 74,
       "mfSharePct": 99.74
     },
     {
@@ -1222,11 +1190,11 @@
       "mfSharePct": 99.74
     },
     {
-      "id": "val:65",
-      "label": "OriginStake",
+      "id": "val:213",
+      "label": "AiNodes",
       "kind": "validator",
       "valueMON": 52500000,
-      "validatorId": 65,
+      "validatorId": 213,
       "mfSharePct": 99.74
     },
     {
@@ -1235,7 +1203,15 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 134,
-      "mfSharePct": 99.75
+      "mfSharePct": 99.74
+    },
+    {
+      "id": "val:65",
+      "label": "OriginStake",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 65,
+      "mfSharePct": 99.74
     },
     {
       "id": "val:64",
@@ -1254,20 +1230,20 @@
       "mfSharePct": 99.75
     },
     {
+      "id": "val:196",
+      "label": "Unity Nodes",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 196,
+      "mfSharePct": 99.77
+    },
+    {
       "id": "val:90",
       "label": "Brightlystake",
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 90,
       "mfSharePct": 99.75
-    },
-    {
-      "id": "val:197",
-      "label": "POSTHUMAN",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 197,
-      "mfSharePct": 99.77
     },
     {
       "id": "val:18",
@@ -1278,11 +1254,11 @@
       "mfSharePct": 99.77
     },
     {
-      "id": "val:196",
-      "label": "Unity Nodes",
+      "id": "val:197",
+      "label": "POSTHUMAN",
       "kind": "validator",
       "valueMON": 52500000,
-      "validatorId": 196,
+      "validatorId": 197,
       "mfSharePct": 99.77
     },
     {
@@ -1291,15 +1267,7 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 217,
-      "mfSharePct": 99.78
-    },
-    {
-      "id": "val:199",
-      "label": "TServices",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 199,
-      "mfSharePct": 99.8
+      "mfSharePct": 99.77
     },
     {
       "id": "val:195",
@@ -1307,22 +1275,6 @@
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 195,
-      "mfSharePct": 99.8
-    },
-    {
-      "id": "val:192",
-      "label": "BlockPro",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 192,
-      "mfSharePct": 99.8
-    },
-    {
-      "id": "val:40",
-      "label": "DTEAM",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 40,
       "mfSharePct": 99.8
     },
     {
@@ -1334,11 +1286,27 @@
       "mfSharePct": 99.8
     },
     {
-      "id": "val:120",
-      "label": "Validatrium",
+      "id": "val:199",
+      "label": "TServices",
       "kind": "validator",
       "valueMON": 52500000,
-      "validatorId": 120,
+      "validatorId": 199,
+      "mfSharePct": 99.8
+    },
+    {
+      "id": "val:40",
+      "label": "DTEAM",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 40,
+      "mfSharePct": 99.8
+    },
+    {
+      "id": "val:192",
+      "label": "BlockPro",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 192,
       "mfSharePct": 99.8
     },
     {
@@ -1350,19 +1318,19 @@
       "mfSharePct": 99.8
     },
     {
+      "id": "val:120",
+      "label": "Validatrium",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 120,
+      "mfSharePct": 99.8
+    },
+    {
       "id": "val:49",
       "label": "FTP",
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 49,
-      "mfSharePct": 99.8
-    },
-    {
-      "id": "val:84",
-      "label": "MCF",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 84,
       "mfSharePct": 99.8
     },
     {
@@ -1374,19 +1342,19 @@
       "mfSharePct": 99.8
     },
     {
+      "id": "val:84",
+      "label": "MCF",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 84,
+      "mfSharePct": 99.8
+    },
+    {
       "id": "val:85",
       "label": "StakeAngle",
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 85,
-      "mfSharePct": 99.8
-    },
-    {
-      "id": "val:177",
-      "label": "Pacific Meta",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 177,
       "mfSharePct": 99.8
     },
     {
@@ -1398,6 +1366,14 @@
       "mfSharePct": 99.8
     },
     {
+      "id": "val:177",
+      "label": "Pacific Meta",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 177,
+      "mfSharePct": 99.8
+    },
+    {
       "id": "val:203",
       "label": "Blocash",
       "kind": "validator",
@@ -1406,19 +1382,19 @@
       "mfSharePct": 99.8
     },
     {
-      "id": "val:212",
-      "label": "CHAIN DIGITAL",
-      "kind": "validator",
-      "valueMON": 52500000,
-      "validatorId": 212,
-      "mfSharePct": 99.8
-    },
-    {
       "id": "val:210",
       "label": "VALIDEXIS",
       "kind": "validator",
       "valueMON": 52500000,
       "validatorId": 210,
+      "mfSharePct": 99.8
+    },
+    {
+      "id": "val:212",
+      "label": "CHAIN DIGITAL",
+      "kind": "validator",
+      "valueMON": 52500000,
+      "validatorId": 212,
       "mfSharePct": 99.8
     },
     {
@@ -1435,7 +1411,7 @@
       "kind": "validator",
       "valueMON": 25000000,
       "validatorId": 169,
-      "mfSharePct": 24.06
+      "mfSharePct": 23.81
     },
     {
       "id": "val:124",
@@ -1443,7 +1419,7 @@
       "kind": "validator",
       "valueMON": 25000000,
       "validatorId": 124,
-      "mfSharePct": 82.7
+      "mfSharePct": 82.48
     },
     {
       "id": "val:95",
@@ -1451,7 +1427,7 @@
       "kind": "validator",
       "valueMON": 25000000,
       "validatorId": 95,
-      "mfSharePct": 83.15
+      "mfSharePct": 83.07
     },
     {
       "id": "val:77",
@@ -1459,31 +1435,7 @@
       "kind": "validator",
       "valueMON": 25000000,
       "validatorId": 77,
-      "mfSharePct": 95.67
-    },
-    {
-      "id": "val:118",
-      "label": "Stakeware",
-      "kind": "validator",
-      "valueMON": 25000000,
-      "validatorId": 118,
-      "mfSharePct": 98.71
-    },
-    {
-      "id": "val:149",
-      "label": "Fountainhead",
-      "kind": "validator",
-      "valueMON": 25000000,
-      "validatorId": 149,
-      "mfSharePct": 98.44
-    },
-    {
-      "id": "val:171",
-      "label": "BitGo",
-      "kind": "validator",
-      "valueMON": 25000000,
-      "validatorId": 171,
-      "mfSharePct": 98.81
+      "mfSharePct": 95.66
     },
     {
       "id": "val:57",
@@ -1492,6 +1444,30 @@
       "valueMON": 25000000,
       "validatorId": 57,
       "mfSharePct": 98.76
+    },
+    {
+      "id": "val:149",
+      "label": "Fountainhead",
+      "kind": "validator",
+      "valueMON": 25000000,
+      "validatorId": 149,
+      "mfSharePct": 98.43
+    },
+    {
+      "id": "val:118",
+      "label": "Stakeware",
+      "kind": "validator",
+      "valueMON": 25000000,
+      "validatorId": 118,
+      "mfSharePct": 98.38
+    },
+    {
+      "id": "val:171",
+      "label": "BitGo",
+      "kind": "validator",
+      "valueMON": 25000000,
+      "validatorId": 171,
+      "mfSharePct": 98.81
     },
     {
       "id": "val:80",
@@ -1518,6 +1494,14 @@
       "mfSharePct": 99.31
     },
     {
+      "id": "val:34",
+      "label": "Ghost",
+      "kind": "validator",
+      "valueMON": 25000000,
+      "validatorId": 34,
+      "mfSharePct": 99.41
+    },
+    {
       "id": "val:165",
       "label": "Kraken",
       "kind": "validator",
@@ -1534,12 +1518,12 @@
       "mfSharePct": 99.44
     },
     {
-      "id": "val:34",
-      "label": "Ghost",
+      "id": "val:122",
+      "label": "BlockHunters 🎯",
       "kind": "validator",
       "valueMON": 25000000,
-      "validatorId": 34,
-      "mfSharePct": 99.41
+      "validatorId": 122,
+      "mfSharePct": 99.46
     },
     {
       "id": "val:24",
@@ -1550,28 +1534,12 @@
       "mfSharePct": 99.46
     },
     {
-      "id": "val:122",
-      "label": "BlockHunters 🎯",
-      "kind": "validator",
-      "valueMON": 25000000,
-      "validatorId": 122,
-      "mfSharePct": 99.47
-    },
-    {
-      "id": "val:132",
-      "label": "Ankr",
-      "kind": "validator",
-      "valueMON": 25000000,
-      "validatorId": 132,
-      "mfSharePct": 99.48
-    },
-    {
       "id": "val:32",
       "label": "Kukis Global",
       "kind": "validator",
       "valueMON": 25000000,
       "validatorId": 32,
-      "mfSharePct": 99.58
+      "mfSharePct": 99.57
     },
     {
       "id": "val:188",
@@ -1582,10 +1550,26 @@
       "mfSharePct": 99.51
     },
     {
+      "id": "val:132",
+      "label": "Ankr",
+      "kind": "validator",
+      "valueMON": 25000000,
+      "validatorId": 132,
+      "mfSharePct": 99.48
+    },
+    {
+      "id": "val:33",
+      "label": "Staketab",
+      "kind": "validator",
+      "valueMON": 25000000,
+      "validatorId": 33,
+      "mfSharePct": 99.59
+    },
+    {
       "id": "dist:0xf12cea359512b8ccd5e7b33b3d308a174837250c",
       "label": "MF Distributor",
       "kind": "distributor",
-      "valueMON": 11225000000
+      "valueMON": 11010000000
     },
     {
       "id": "wal:0xa94bb28ba1d41598145110635450a3bda93e6f2c",
@@ -1594,22 +1578,16 @@
       "valueMON": 505000000
     },
     {
-      "id": "wal:0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
-      "label": "0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
-      "kind": "wallet",
-      "valueMON": 747500000
-    },
-    {
       "id": "wal:0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
       "label": "0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
       "kind": "wallet",
       "valueMON": 690000000
     },
     {
-      "id": "wal:0x131f333782a83873d518ec0975abbc1bf07c7fa3",
-      "label": "0x131f333782a83873d518ec0975abbc1bf07c7fa3",
+      "id": "wal:0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
+      "label": "0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
       "kind": "wallet",
-      "valueMON": 662500000
+      "valueMON": 747500000
     },
     {
       "id": "wal:0xa70fe16d3c337b9ffab9c2af8704f768503a75d9",
@@ -1621,7 +1599,7 @@
       "id": "wal:0x6810126a16826718fa52deada7eb979335405406",
       "label": "0x6810126a16826718fa52deada7eb979335405406",
       "kind": "wallet",
-      "valueMON": 612500000
+      "valueMON": 637500000
     },
     {
       "id": "wal:0x294123afe9195652610e2320aeaae692a13f468c",
@@ -1660,16 +1638,22 @@
       "valueMON": 615000000
     },
     {
-      "id": "wal:0xdd16b22d2f43d00fe75a5d8191634cb8279ad17d",
-      "label": "0xdd16b22d2f43d00fe75a5d8191634cb8279ad17d",
+      "id": "wal:0x131f333782a83873d518ec0975abbc1bf07c7fa3",
+      "label": "0x131f333782a83873d518ec0975abbc1bf07c7fa3",
       "kind": "wallet",
-      "valueMON": 355000000
+      "valueMON": 572500000
     },
     {
       "id": "wal:0x123e92a6cdc3115d429dd42096f40495fd91d863",
       "label": "0x123e92a6cdc3115d429dd42096f40495fd91d863",
       "kind": "wallet",
       "valueMON": 512500000
+    },
+    {
+      "id": "wal:0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
+      "label": "0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
+      "kind": "wallet",
+      "valueMON": 487500000
     },
     {
       "id": "wal:0xe02556baa379a8fad78260e35236fc72a2e897af",
@@ -1687,19 +1671,19 @@
       "id": "wal:0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
       "label": "0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
       "kind": "wallet",
-      "valueMON": 465000000
-    },
-    {
-      "id": "wal:0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
-      "label": "0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
-      "kind": "wallet",
-      "valueMON": 487500000
+      "valueMON": 390000000
     },
     {
       "id": "wal:0x02004d41bdb94497d34cd603767e71d3127a6285",
       "label": "0x02004d41bdb94497d34cd603767e71d3127a6285",
       "kind": "wallet",
       "valueMON": 570000000
+    },
+    {
+      "id": "wal:0xdd16b22d2f43d00fe75a5d8191634cb8279ad17d",
+      "label": "0xdd16b22d2f43d00fe75a5d8191634cb8279ad17d",
+      "kind": "wallet",
+      "valueMON": 280000000
     },
     {
       "id": "wal:0x5e5cd561c772968d739824ad834aecce78e878b4",
@@ -1716,20 +1700,14 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
-      "target": "val:72",
-      "valueMON": 90000000,
-      "kind": "delegation"
-    },
-    {
       "source": "wal:0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
       "target": "val:10",
       "valueMON": 90000000,
       "kind": "delegation"
     },
     {
-      "source": "wal:0x131f333782a83873d518ec0975abbc1bf07c7fa3",
-      "target": "val:128",
+      "source": "wal:0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
+      "target": "val:72",
       "valueMON": 90000000,
       "kind": "delegation"
     },
@@ -1788,20 +1766,8 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x294123afe9195652610e2320aeaae692a13f468c",
-      "target": "val:12",
-      "valueMON": 75000000,
-      "kind": "delegation"
-    },
-    {
       "source": "wal:0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
       "target": "val:9",
-      "valueMON": 75000000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0x84e4a2066ef7d90f57f7c437d7e0aaeca6e21a63",
-      "target": "val:154",
       "valueMON": 75000000,
       "kind": "delegation"
     },
@@ -1812,8 +1778,20 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
-      "target": "val:76",
+      "source": "wal:0x294123afe9195652610e2320aeaae692a13f468c",
+      "target": "val:12",
+      "valueMON": 75000000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0x84e4a2066ef7d90f57f7c437d7e0aaeca6e21a63",
+      "target": "val:154",
+      "valueMON": 75000000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
+      "target": "val:170",
       "valueMON": 75000000,
       "kind": "delegation"
     },
@@ -1824,8 +1802,8 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
-      "target": "val:170",
+      "source": "wal:0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
+      "target": "val:76",
       "valueMON": 75000000,
       "kind": "delegation"
     },
@@ -1837,7 +1815,7 @@
     },
     {
       "source": "wal:0x84e4a2066ef7d90f57f7c437d7e0aaeca6e21a63",
-      "target": "val:56",
+      "target": "val:114",
       "valueMON": 75000000,
       "kind": "delegation"
     },
@@ -1849,7 +1827,7 @@
     },
     {
       "source": "wal:0x84e4a2066ef7d90f57f7c437d7e0aaeca6e21a63",
-      "target": "val:114",
+      "target": "val:56",
       "valueMON": 75000000,
       "kind": "delegation"
     },
@@ -1866,26 +1844,14 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0xdd16b22d2f43d00fe75a5d8191634cb8279ad17d",
-      "target": "val:17",
-      "valueMON": 75000000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
-      "target": "val:98",
-      "valueMON": 75000000,
-      "kind": "delegation"
-    },
-    {
       "source": "wal:0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
       "target": "val:129",
       "valueMON": 75000000,
       "kind": "delegation"
     },
     {
-      "source": "wal:0x6810126a16826718fa52deada7eb979335405406",
-      "target": "val:133",
+      "source": "wal:0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
+      "target": "val:98",
       "valueMON": 75000000,
       "kind": "delegation"
     },
@@ -1908,6 +1874,24 @@
       "kind": "delegation"
     },
     {
+      "source": "wal:0x6810126a16826718fa52deada7eb979335405406",
+      "target": "val:133",
+      "valueMON": 75000000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
+      "target": "val:26",
+      "valueMON": 75000000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0x294123afe9195652610e2320aeaae692a13f468c",
+      "target": "val:152",
+      "valueMON": 75000000,
+      "kind": "delegation"
+    },
+    {
       "source": "wal:0xe02556baa379a8fad78260e35236fc72a2e897af",
       "target": "val:25",
       "valueMON": 75000000,
@@ -1920,20 +1904,8 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x294123afe9195652610e2320aeaae692a13f468c",
-      "target": "val:152",
-      "valueMON": 75000000,
-      "kind": "delegation"
-    },
-    {
       "source": "wal:0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
       "target": "val:204",
-      "valueMON": 75000000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
-      "target": "val:26",
       "valueMON": 75000000,
       "kind": "delegation"
     },
@@ -1944,20 +1916,14 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0xe02556baa379a8fad78260e35236fc72a2e897af",
-      "target": "val:146",
-      "valueMON": 75000000,
-      "kind": "delegation"
-    },
-    {
       "source": "wal:0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
       "target": "val:189",
       "valueMON": 75000000,
       "kind": "delegation"
     },
     {
-      "source": "wal:0x294123afe9195652610e2320aeaae692a13f468c",
-      "target": "val:73",
+      "source": "wal:0xe02556baa379a8fad78260e35236fc72a2e897af",
+      "target": "val:146",
       "valueMON": 75000000,
       "kind": "delegation"
     },
@@ -1968,14 +1934,26 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x02004d41bdb94497d34cd603767e71d3127a6285",
-      "target": "val:100",
+      "source": "wal:0x294123afe9195652610e2320aeaae692a13f468c",
+      "target": "val:73",
       "valueMON": 75000000,
       "kind": "delegation"
     },
     {
       "source": "wal:0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
       "target": "val:144",
+      "valueMON": 75000000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0x4545fd2135231bd9c4b39f3c082122c4789795da",
+      "target": "val:138",
+      "valueMON": 75000000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0x02004d41bdb94497d34cd603767e71d3127a6285",
+      "target": "val:100",
       "valueMON": 75000000,
       "kind": "delegation"
     },
@@ -1992,24 +1970,6 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x4545fd2135231bd9c4b39f3c082122c4789795da",
-      "target": "val:138",
-      "valueMON": 75000000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
-      "target": "val:127",
-      "valueMON": 75000000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
-      "target": "val:31",
-      "valueMON": 75000000,
-      "kind": "delegation"
-    },
-    {
       "source": "wal:0xdd16b22d2f43d00fe75a5d8191634cb8279ad17d",
       "target": "val:38",
       "valueMON": 75000000,
@@ -2022,8 +1982,8 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x294123afe9195652610e2320aeaae692a13f468c",
-      "target": "val:54",
+      "source": "wal:0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
+      "target": "val:31",
       "valueMON": 75000000,
       "kind": "delegation"
     },
@@ -2034,8 +1994,8 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0xa94bb28ba1d41598145110635450a3bda93e6f2c",
-      "target": "val:143",
+      "source": "wal:0x294123afe9195652610e2320aeaae692a13f468c",
+      "target": "val:54",
       "valueMON": 75000000,
       "kind": "delegation"
     },
@@ -2052,26 +2012,26 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
-      "target": "val:211",
-      "valueMON": 75000000,
-      "kind": "delegation"
-    },
-    {
       "source": "wal:0x02004d41bdb94497d34cd603767e71d3127a6285",
       "target": "val:214",
       "valueMON": 75000000,
       "kind": "delegation"
     },
     {
-      "source": "wal:0x294123afe9195652610e2320aeaae692a13f468c",
-      "target": "val:92",
-      "valueMON": 52500000,
+      "source": "wal:0xa94bb28ba1d41598145110635450a3bda93e6f2c",
+      "target": "val:143",
+      "valueMON": 75000000,
       "kind": "delegation"
     },
     {
-      "source": "wal:0x02004d41bdb94497d34cd603767e71d3127a6285",
-      "target": "val:16",
+      "source": "wal:0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
+      "target": "val:211",
+      "valueMON": 75000000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0x294123afe9195652610e2320aeaae692a13f468c",
+      "target": "val:92",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2084,6 +2044,12 @@
     {
       "source": "wal:0x6810126a16826718fa52deada7eb979335405406",
       "target": "val:55",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0x02004d41bdb94497d34cd603767e71d3127a6285",
+      "target": "val:16",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2107,25 +2073,25 @@
     },
     {
       "source": "wal:0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
-      "target": "val:71",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0xa70fe16d3c337b9ffab9c2af8704f768503a75d9",
-      "target": "val:162",
+      "target": "val:51",
       "valueMON": 52500000,
       "kind": "delegation"
     },
     {
       "source": "wal:0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
-      "target": "val:51",
+      "target": "val:71",
       "valueMON": 52500000,
       "kind": "delegation"
     },
     {
       "source": "wal:0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
       "target": "val:58",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0xa70fe16d3c337b9ffab9c2af8704f768503a75d9",
+      "target": "val:162",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2142,14 +2108,14 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x0638576e9aca1618302fb6215c5d88ac1d0753d7",
-      "target": "val:105",
+      "source": "wal:0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
+      "target": "val:45",
       "valueMON": 52500000,
       "kind": "delegation"
     },
     {
-      "source": "wal:0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
-      "target": "val:45",
+      "source": "wal:0x0638576e9aca1618302fb6215c5d88ac1d0753d7",
+      "target": "val:105",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2160,20 +2126,38 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
-      "target": "val:109",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
       "source": "wal:0x4545fd2135231bd9c4b39f3c082122c4789795da",
       "target": "val:61",
       "valueMON": 52500000,
       "kind": "delegation"
     },
     {
+      "source": "wal:0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
+      "target": "val:109",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
       "source": "wal:0x131f333782a83873d518ec0975abbc1bf07c7fa3",
       "target": "val:8",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
+      "target": "val:48",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0x123e92a6cdc3115d429dd42096f40495fd91d863",
+      "target": "val:139",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
+      "target": "val:151",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2190,20 +2174,8 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
-      "target": "val:48",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
       "source": "wal:0xa70fe16d3c337b9ffab9c2af8704f768503a75d9",
       "target": "val:37",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0x123e92a6cdc3115d429dd42096f40495fd91d863",
-      "target": "val:139",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2214,32 +2186,8 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
-      "target": "val:151",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
-      "target": "val:29",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
-      "target": "val:35",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0x6810126a16826718fa52deada7eb979335405406",
-      "target": "val:93",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0x02004d41bdb94497d34cd603767e71d3127a6285",
-      "target": "val:160",
+      "source": "wal:0xa94bb28ba1d41598145110635450a3bda93e6f2c",
+      "target": "val:82",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2250,20 +2198,50 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x4545fd2135231bd9c4b39f3c082122c4789795da",
-      "target": "val:19",
+      "source": "wal:0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
+      "target": "val:29",
       "valueMON": 52500000,
       "kind": "delegation"
     },
     {
-      "source": "wal:0xa94bb28ba1d41598145110635450a3bda93e6f2c",
-      "target": "val:82",
+      "source": "wal:0x6810126a16826718fa52deada7eb979335405406",
+      "target": "val:93",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
+      "target": "val:35",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0x02004d41bdb94497d34cd603767e71d3127a6285",
+      "target": "val:160",
       "valueMON": 52500000,
       "kind": "delegation"
     },
     {
       "source": "wal:0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
       "target": "val:117",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
+      "target": "val:167",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0xa70fe16d3c337b9ffab9c2af8704f768503a75d9",
+      "target": "val:63",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0x4545fd2135231bd9c4b39f3c082122c4789795da",
+      "target": "val:19",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2281,25 +2259,7 @@
     },
     {
       "source": "wal:0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
-      "target": "val:167",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
       "target": "val:87",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
-      "target": "val:111",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0xa70fe16d3c337b9ffab9c2af8704f768503a75d9",
-      "target": "val:63",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2310,8 +2270,8 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x294123afe9195652610e2320aeaae692a13f468c",
-      "target": "val:30",
+      "source": "wal:0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
+      "target": "val:111",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2322,8 +2282,8 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
-      "target": "val:15",
+      "source": "wal:0x294123afe9195652610e2320aeaae692a13f468c",
+      "target": "val:30",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2334,8 +2294,14 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x6810126a16826718fa52deada7eb979335405406",
-      "target": "val:13",
+      "source": "wal:0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
+      "target": "val:70",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
+      "target": "val:15",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2346,14 +2312,26 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
-      "target": "val:70",
+      "source": "wal:0x6810126a16826718fa52deada7eb979335405406",
+      "target": "val:13",
       "valueMON": 52500000,
       "kind": "delegation"
     },
     {
       "source": "wal:0x5e5cd561c772968d739824ad834aecce78e878b4",
       "target": "val:66",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
+      "target": "val:215",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
+      "target": "val:198",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2370,12 +2348,6 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
-      "target": "val:215",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
       "source": "wal:0x02004d41bdb94497d34cd603767e71d3127a6285",
       "target": "val:81",
       "valueMON": 52500000,
@@ -2388,8 +2360,8 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
-      "target": "val:198",
+      "source": "wal:0xe02556baa379a8fad78260e35236fc72a2e897af",
+      "target": "val:207",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2406,20 +2378,14 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0xdd16b22d2f43d00fe75a5d8191634cb8279ad17d",
-      "target": "val:194",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0xe02556baa379a8fad78260e35236fc72a2e897af",
-      "target": "val:207",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
       "source": "wal:0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
       "target": "val:91",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0xdd16b22d2f43d00fe75a5d8191634cb8279ad17d",
+      "target": "val:194",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2436,14 +2402,14 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0xdd16b22d2f43d00fe75a5d8191634cb8279ad17d",
-      "target": "val:156",
+      "source": "wal:0xa94bb28ba1d41598145110635450a3bda93e6f2c",
+      "target": "val:163",
       "valueMON": 52500000,
       "kind": "delegation"
     },
     {
-      "source": "wal:0xa94bb28ba1d41598145110635450a3bda93e6f2c",
-      "target": "val:163",
+      "source": "wal:0xdd16b22d2f43d00fe75a5d8191634cb8279ad17d",
+      "target": "val:156",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2478,12 +2444,6 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x123e92a6cdc3115d429dd42096f40495fd91d863",
-      "target": "val:202",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
       "source": "wal:0x131f333782a83873d518ec0975abbc1bf07c7fa3",
       "target": "val:193",
       "valueMON": 52500000,
@@ -2492,6 +2452,12 @@
     {
       "source": "wal:0x5e5cd561c772968d739824ad834aecce78e878b4",
       "target": "val:101",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0x123e92a6cdc3115d429dd42096f40495fd91d863",
+      "target": "val:202",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2508,20 +2474,14 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0xa94bb28ba1d41598145110635450a3bda93e6f2c",
-      "target": "val:103",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
-      "target": "val:60",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
       "source": "wal:0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
       "target": "val:107",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0xa94bb28ba1d41598145110635450a3bda93e6f2c",
+      "target": "val:103",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2532,14 +2492,14 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x123e92a6cdc3115d429dd42096f40495fd91d863",
-      "target": "val:41",
+      "source": "wal:0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
+      "target": "val:60",
       "valueMON": 52500000,
       "kind": "delegation"
     },
     {
-      "source": "wal:0x02004d41bdb94497d34cd603767e71d3127a6285",
-      "target": "val:183",
+      "source": "wal:0x123e92a6cdc3115d429dd42096f40495fd91d863",
+      "target": "val:41",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2550,8 +2510,8 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0xa70fe16d3c337b9ffab9c2af8704f768503a75d9",
-      "target": "val:142",
+      "source": "wal:0x02004d41bdb94497d34cd603767e71d3127a6285",
+      "target": "val:183",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2562,8 +2522,8 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
-      "target": "val:115",
+      "source": "wal:0xa70fe16d3c337b9ffab9c2af8704f768503a75d9",
+      "target": "val:142",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2575,7 +2535,7 @@
     },
     {
       "source": "wal:0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
-      "target": "val:96",
+      "target": "val:115",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2586,8 +2546,8 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x5e5cd561c772968d739824ad834aecce78e878b4",
-      "target": "val:213",
+      "source": "wal:0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
+      "target": "val:96",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2598,14 +2558,14 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x6810126a16826718fa52deada7eb979335405406",
-      "target": "val:74",
+      "source": "wal:0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
+      "target": "val:50",
       "valueMON": 52500000,
       "kind": "delegation"
     },
     {
-      "source": "wal:0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
-      "target": "val:50",
+      "source": "wal:0x6810126a16826718fa52deada7eb979335405406",
+      "target": "val:74",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2616,14 +2576,20 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x02004d41bdb94497d34cd603767e71d3127a6285",
-      "target": "val:65",
+      "source": "wal:0x5e5cd561c772968d739824ad834aecce78e878b4",
+      "target": "val:213",
       "valueMON": 52500000,
       "kind": "delegation"
     },
     {
       "source": "wal:0x84e4a2066ef7d90f57f7c437d7e0aaeca6e21a63",
       "target": "val:134",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0x02004d41bdb94497d34cd603767e71d3127a6285",
+      "target": "val:65",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2640,14 +2606,14 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
-      "target": "val:90",
+      "source": "wal:0x5e5cd561c772968d739824ad834aecce78e878b4",
+      "target": "val:196",
       "valueMON": 52500000,
       "kind": "delegation"
     },
     {
-      "source": "wal:0x4545fd2135231bd9c4b39f3c082122c4789795da",
-      "target": "val:197",
+      "source": "wal:0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
+      "target": "val:90",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2658,8 +2624,8 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x5e5cd561c772968d739824ad834aecce78e878b4",
-      "target": "val:196",
+      "source": "wal:0x4545fd2135231bd9c4b39f3c082122c4789795da",
+      "target": "val:197",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2670,26 +2636,8 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x131f333782a83873d518ec0975abbc1bf07c7fa3",
-      "target": "val:199",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
       "source": "wal:0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
       "target": "val:195",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0x6810126a16826718fa52deada7eb979335405406",
-      "target": "val:192",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
-      "target": "val:40",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2700,8 +2648,20 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x02004d41bdb94497d34cd603767e71d3127a6285",
-      "target": "val:120",
+      "source": "wal:0x131f333782a83873d518ec0975abbc1bf07c7fa3",
+      "target": "val:199",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
+      "target": "val:40",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0x6810126a16826718fa52deada7eb979335405406",
+      "target": "val:192",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2712,8 +2672,20 @@
       "kind": "delegation"
     },
     {
+      "source": "wal:0x02004d41bdb94497d34cd603767e71d3127a6285",
+      "target": "val:120",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
       "source": "wal:0x131f333782a83873d518ec0975abbc1bf07c7fa3",
       "target": "val:49",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0x0638576e9aca1618302fb6215c5d88ac1d0753d7",
+      "target": "val:205",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2725,19 +2697,7 @@
     },
     {
       "source": "wal:0x0638576e9aca1618302fb6215c5d88ac1d0753d7",
-      "target": "val:205",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0x0638576e9aca1618302fb6215c5d88ac1d0753d7",
       "target": "val:85",
-      "valueMON": 52500000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
-      "target": "val:177",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2748,20 +2708,26 @@
       "kind": "delegation"
     },
     {
+      "source": "wal:0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
+      "target": "val:177",
+      "valueMON": 52500000,
+      "kind": "delegation"
+    },
+    {
       "source": "wal:0x294123afe9195652610e2320aeaae692a13f468c",
       "target": "val:203",
       "valueMON": 52500000,
       "kind": "delegation"
     },
     {
-      "source": "wal:0x294123afe9195652610e2320aeaae692a13f468c",
-      "target": "val:212",
+      "source": "wal:0xa94bb28ba1d41598145110635450a3bda93e6f2c",
+      "target": "val:210",
       "valueMON": 52500000,
       "kind": "delegation"
     },
     {
-      "source": "wal:0xa94bb28ba1d41598145110635450a3bda93e6f2c",
-      "target": "val:210",
+      "source": "wal:0x294123afe9195652610e2320aeaae692a13f468c",
+      "target": "val:212",
       "valueMON": 52500000,
       "kind": "delegation"
     },
@@ -2796,8 +2762,8 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x4545fd2135231bd9c4b39f3c082122c4789795da",
-      "target": "val:118",
+      "source": "wal:0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
+      "target": "val:57",
       "valueMON": 25000000,
       "kind": "delegation"
     },
@@ -2808,14 +2774,14 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x131f333782a83873d518ec0975abbc1bf07c7fa3",
-      "target": "val:171",
+      "source": "wal:0x4545fd2135231bd9c4b39f3c082122c4789795da",
+      "target": "val:118",
       "valueMON": 25000000,
       "kind": "delegation"
     },
     {
-      "source": "wal:0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
-      "target": "val:57",
+      "source": "wal:0x131f333782a83873d518ec0975abbc1bf07c7fa3",
+      "target": "val:171",
       "valueMON": 25000000,
       "kind": "delegation"
     },
@@ -2838,6 +2804,12 @@
       "kind": "delegation"
     },
     {
+      "source": "wal:0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
+      "target": "val:34",
+      "valueMON": 25000000,
+      "kind": "delegation"
+    },
+    {
       "source": "wal:0x0638576e9aca1618302fb6215c5d88ac1d0753d7",
       "target": "val:165",
       "valueMON": 25000000,
@@ -2850,26 +2822,14 @@
       "kind": "delegation"
     },
     {
-      "source": "wal:0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
-      "target": "val:34",
-      "valueMON": 25000000,
-      "kind": "delegation"
-    },
-    {
-      "source": "wal:0xa94bb28ba1d41598145110635450a3bda93e6f2c",
-      "target": "val:24",
-      "valueMON": 25000000,
-      "kind": "delegation"
-    },
-    {
       "source": "wal:0xa70fe16d3c337b9ffab9c2af8704f768503a75d9",
       "target": "val:122",
       "valueMON": 25000000,
       "kind": "delegation"
     },
     {
-      "source": "wal:0x294123afe9195652610e2320aeaae692a13f468c",
-      "target": "val:132",
+      "source": "wal:0xa94bb28ba1d41598145110635450a3bda93e6f2c",
+      "target": "val:24",
       "valueMON": 25000000,
       "kind": "delegation"
     },
@@ -2886,15 +2846,21 @@
       "kind": "delegation"
     },
     {
-      "source": "dist:0xf12cea359512b8ccd5e7b33b3d308a174837250c",
-      "target": "wal:0xa94bb28ba1d41598145110635450a3bda93e6f2c",
-      "valueMON": 505000000,
-      "kind": "funding"
+      "source": "wal:0x294123afe9195652610e2320aeaae692a13f468c",
+      "target": "val:132",
+      "valueMON": 25000000,
+      "kind": "delegation"
+    },
+    {
+      "source": "wal:0x6810126a16826718fa52deada7eb979335405406",
+      "target": "val:33",
+      "valueMON": 25000000,
+      "kind": "delegation"
     },
     {
       "source": "dist:0xf12cea359512b8ccd5e7b33b3d308a174837250c",
-      "target": "wal:0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
-      "valueMON": 747500000,
+      "target": "wal:0xa94bb28ba1d41598145110635450a3bda93e6f2c",
+      "valueMON": 505000000,
       "kind": "funding"
     },
     {
@@ -2905,8 +2871,8 @@
     },
     {
       "source": "dist:0xf12cea359512b8ccd5e7b33b3d308a174837250c",
-      "target": "wal:0x131f333782a83873d518ec0975abbc1bf07c7fa3",
-      "valueMON": 662500000,
+      "target": "wal:0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
+      "valueMON": 747500000,
       "kind": "funding"
     },
     {
@@ -2918,7 +2884,7 @@
     {
       "source": "dist:0xf12cea359512b8ccd5e7b33b3d308a174837250c",
       "target": "wal:0x6810126a16826718fa52deada7eb979335405406",
-      "valueMON": 612500000,
+      "valueMON": 637500000,
       "kind": "funding"
     },
     {
@@ -2959,14 +2925,20 @@
     },
     {
       "source": "dist:0xf12cea359512b8ccd5e7b33b3d308a174837250c",
-      "target": "wal:0xdd16b22d2f43d00fe75a5d8191634cb8279ad17d",
-      "valueMON": 355000000,
+      "target": "wal:0x131f333782a83873d518ec0975abbc1bf07c7fa3",
+      "valueMON": 572500000,
       "kind": "funding"
     },
     {
       "source": "dist:0xf12cea359512b8ccd5e7b33b3d308a174837250c",
       "target": "wal:0x123e92a6cdc3115d429dd42096f40495fd91d863",
       "valueMON": 512500000,
+      "kind": "funding"
+    },
+    {
+      "source": "dist:0xf12cea359512b8ccd5e7b33b3d308a174837250c",
+      "target": "wal:0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
+      "valueMON": 487500000,
       "kind": "funding"
     },
     {
@@ -2984,19 +2956,19 @@
     {
       "source": "dist:0xf12cea359512b8ccd5e7b33b3d308a174837250c",
       "target": "wal:0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
-      "valueMON": 465000000,
-      "kind": "funding"
-    },
-    {
-      "source": "dist:0xf12cea359512b8ccd5e7b33b3d308a174837250c",
-      "target": "wal:0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
-      "valueMON": 487500000,
+      "valueMON": 390000000,
       "kind": "funding"
     },
     {
       "source": "dist:0xf12cea359512b8ccd5e7b33b3d308a174837250c",
       "target": "wal:0x02004d41bdb94497d34cd603767e71d3127a6285",
       "valueMON": 570000000,
+      "kind": "funding"
+    },
+    {
+      "source": "dist:0xf12cea359512b8ccd5e7b33b3d308a174837250c",
+      "target": "wal:0xdd16b22d2f43d00fe75a5d8191634cb8279ad17d",
+      "valueMON": 280000000,
       "kind": "funding"
     },
     {
