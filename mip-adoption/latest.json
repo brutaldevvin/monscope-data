@@ -1,11 +1,11 @@
 {
   "schema": "monscope.mip-adoption.v2",
-  "captured_at": "2026-10-18T07:44:10.228Z",
+  "captured_at": "2026-10-25T07:29:10.684Z",
   "monad_nine_block": 62466234,
   "mip2": {
     "thresholdBytes": 24576,
     "initcodeLimitBytes": 49152,
-    "totalContractsScanned": 54793,
+    "totalContractsScanned": 55514,
     "contractsAboveThreshold": [
       {
         "address": "0xc156186a2c954a8e07354b8bad972ea9a44ef46f",
@@ -9807,6 +9807,530 @@
         "deploymentBlock": 114306080,
         "deploymentTx": "0x1df78af28cb96dd723693604925cff99a9faec9cfcd8686c4cb59b73f7313533",
         "firstSeenAt": "2026-10-18T07:40:36.918Z"
+      },
+      {
+        "address": "0x612bd8e8c4a54bcaa3944924f5decedc796159f7",
+        "codeSize": 27292,
+        "initcodeBytes": 27525,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 114416832,
+        "deploymentTx": "0x74ab5a909e5937531874a5db31356a7fd0bbab1c6e7902dc5300c290fc067b0e",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x03b002f8b31b83f8445e97a157674d964dd4c842",
+        "codeSize": 27292,
+        "initcodeBytes": 27525,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 114477512,
+        "deploymentTx": "0xc533ff525c0fb9732813c1b42ce446500e2393360750975803426562128b8efb",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x76245318abed85a7beefbe22438a71092a49bc8b",
+        "codeSize": 27292,
+        "initcodeBytes": 27525,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 114477516,
+        "deploymentTx": "0x564cab5f42fe9798ff4fc1d0ac12ead5fe26fe53ce0838f3e7452f8d4664cc0e",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x8aab28261d06cffdc3c3f1ebad7d8a4a15fa104c",
+        "codeSize": 27292,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 114477519,
+        "deploymentTx": "0xb537400fc2e193be7bbca2c373dd90e9bb9fba6da0c56dc48c696bb46d4738d0",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x2fca813a6575f79d01f7a2bc5541989d88e7a96a",
+        "codeSize": 37378,
+        "initcodeBytes": 37992,
+        "deployer": "0xd207b8bfdac6876a0e449bbad880106aa6f558c0",
+        "deploymentBlock": 114516004,
+        "deploymentTx": "0xe3778a493e46f9e0cff60c7a1d8982a5dc7696bc3741ec2987d3e5cd3029cb45",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x7611405605a9d630f3e7f4703897fcf1dc17f945",
+        "codeSize": 25594,
+        "initcodeBytes": 26110,
+        "deployer": "0xc0c4e411e41becad6da860f67063c2d6363a6113",
+        "deploymentBlock": 114536603,
+        "deploymentTx": "0x868b5a0c04f1173b4727f5a48f23eb9cf8d7c41d9815e88451a884fd4c337473",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x484883b7a41fa93fb21f25685d87658379f09d87",
+        "codeSize": 61386,
+        "initcodeBytes": 62880,
+        "deployer": "0x7296d0c5e3e3e936b149d2d418d1f7c1da1ad107",
+        "deploymentBlock": 114540341,
+        "deploymentTx": "0x7cf0f2482cbf0b0f48ccf25e9b4dc0e03ba7655e314eb638ca69a8006cc0e4f3",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x8f4fffaacc6d3457a2666eff71bc002e3560dbd2",
+        "codeSize": 37459,
+        "deployer": "0xd207b8bfdac6876a0e449bbad880106aa6f558c0",
+        "deploymentBlock": 114530351,
+        "deploymentTx": "0x5c08123399708d85295e3b5448e3ac3b5f9dd63a5f34d2cde48a747319a1b9cf",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x4f33532086d280943d68bf0163a7dfaf86c58cf5",
+        "codeSize": 61386,
+        "deployer": "0x7296d0c5e3e3e936b149d2d418d1f7c1da1ad107",
+        "deploymentBlock": 114540327,
+        "deploymentTx": "0x9a4488d1b50290abd7e843e2c8cf7d0f0155ec76592f2b1884d7d6a1d551fe5a",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x1fa9291977800eba0db7af6dc22ec7c019535268",
+        "codeSize": 61386,
+        "initcodeBytes": 62880,
+        "deployer": "0x7296d0c5e3e3e936b149d2d418d1f7c1da1ad107",
+        "deploymentBlock": 114540349,
+        "deploymentTx": "0x614a9d4b9d905ecfb94619448b5f8961d4c9fefaafa94d547a54867522e553f4",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x6f6200393b96d61667ee0d3e0edd9d712246dcc6",
+        "codeSize": 61386,
+        "deployer": "0x7296d0c5e3e3e936b149d2d418d1f7c1da1ad107",
+        "deploymentBlock": 114540334,
+        "deploymentTx": "0x5cfb875874599d0af3f57eda3e8ecf943dd1eb56daac31a7829b56fc51ab1e30",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x5f6f414bbabb94a7e431a3f8b2e1961dcad95bd9",
+        "codeSize": 28575,
+        "initcodeBytes": 29355,
+        "deployer": "0x271381c423d07bfab0479af2be110262e8469d58",
+        "deploymentBlock": 114632350,
+        "deploymentTx": "0xac8ce788b645bddb97fd71254bcd56df0217fc4b33574153396690363e998ea2",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x40c484c2eb30884f9353d5cac1636fa2b6cc29d1",
+        "codeSize": 34261,
+        "initcodeBytes": 34921,
+        "deployer": "0xf8f02963c14105962d2e30d9718d46355637871d",
+        "deploymentBlock": 114705165,
+        "deploymentTx": "0xe380ef5ec55f68dfab35b3857d42266d733b168a7b2bf597bab12a1b9e62037d",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x7da39d498a99cab9f04874f4aa29d54880d5c4ca",
+        "codeSize": 37858,
+        "initcodeBytes": 39383,
+        "deployer": "0x28da9fb500d132686ba5904068a9f5ebdf63f8d9",
+        "deploymentBlock": 114774716,
+        "deploymentTx": "0xb7a2338198355cbffe0d525548bd2c30bf72a0618b18b2772139af6a00f73467",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x174d9fca7f40f5264a095405bbdeaebc8abdc1ff",
+        "codeSize": 31244,
+        "initcodeBytes": 31658,
+        "deployer": "0xbb34dab96850d0b453c1f984a81bb497efb229e7",
+        "deploymentBlock": 114859162,
+        "deploymentTx": "0xad4fb5c73471e2dfcaa41c8dd2f96ee38b270d1b62d5c8f8c60af7d1367268bf",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0xb06bb1961bf45dd5042c801f408224173fed9758",
+        "codeSize": 35155,
+        "deployer": "0xbb34dab96850d0b453c1f984a81bb497efb229e7",
+        "deploymentBlock": 114859052,
+        "deploymentTx": "0xa04896b31d0ea54cff3ef13d456a42cd5049fbd390e1be3ff9f60c724f83d8bb",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x5039ac1c6885156db219a9b1b93f9b4deb83ea47",
+        "codeSize": 31687,
+        "initcodeBytes": 32780,
+        "deployer": "0x4cb5f7bbbc9fda9090352e08e4ffb96aecd14db4",
+        "deploymentBlock": 114882775,
+        "deploymentTx": "0x467b44a67e31930ee2b285642c356013485adf4f3af7ed3b650bc8dd3ed982ca",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x4438fd00c958e50baa5d04945b8b669e694021a8",
+        "codeSize": 27324,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 115108208,
+        "deploymentTx": "0x4460dbbc02d64c533d9a0d2f049209527f32015054cf68f85e28b94d214f32d3",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x73f4c920311007a1f9df8ca842ffd6f01913a1b2",
+        "codeSize": 27324,
+        "initcodeBytes": 27557,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 115108212,
+        "deploymentTx": "0xd28379495f8c3c4752e3e10bfa9c0abfb4ca8f148d8d1b12002e1f01db6dcc79",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x195a39bc3c4ab9293924d0fa81f01243a0de8f18",
+        "codeSize": 27324,
+        "initcodeBytes": 27557,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 115108224,
+        "deploymentTx": "0x9ff36bc65e68d520f400a139652c76d9b425aa9525e0e62f14ffb43cd0ccb198",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x7519a12ea7bbc2bbbb35d7b109888eb647eb7cb7",
+        "codeSize": 27324,
+        "initcodeBytes": 27557,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 115108220,
+        "deploymentTx": "0xbb84cd3856dbac5cbe7b62046a6126a6ab8c7a05b8e7bca446a94c96e094fe11",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x0155e978c7a6e8589abd678e8b0664b6d0c5f85a",
+        "codeSize": 27324,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 115108228,
+        "deploymentTx": "0xe5d162932799c6991d73ab786afe30524df3c9b4a4933b9aa34811cf5b51ae48",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x5aad7daa65eda6afe966d5cc844a5ad1a10df3e0",
+        "codeSize": 27324,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 115108236,
+        "deploymentTx": "0x209c308c3d7116479e016daf47ca2d5c6fa9d7c879e3238bd020ccf7017cb23c",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x90e914cf0f35d84e6b22019177e106c9fbcf32c1",
+        "codeSize": 27324,
+        "initcodeBytes": 27557,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 115108232,
+        "deploymentTx": "0xb946611e7045d35640b371753f6aa60df9f2b583eb4969709c290856958fd6b4",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0xe5acb21c87a1a4ac8a80bb1f01014932332662b9",
+        "codeSize": 27324,
+        "initcodeBytes": 27557,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 115108240,
+        "deploymentTx": "0xd586f1623d9c56e756de21f21009a6e5235e3ad1f51522e22461f0bed6669b65",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x05a320bee71a3289b8676bf5d108a7f8fce31325",
+        "codeSize": 27324,
+        "initcodeBytes": 27557,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 115108248,
+        "deploymentTx": "0xcc622b345a07c4aa7992541b33aa4fa2abad6566b9d537c97cc7e058cb582e7d",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x013310003274837dab02f213557950edc8385909",
+        "codeSize": 27324,
+        "initcodeBytes": 27557,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 115108256,
+        "deploymentTx": "0xb079a3d2251112178ea6e9d244972a86fdea64b2a56afeab619d78cf6c6fbfca",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0xd1f27d6676c5a75547e34c1ba8bfa4fd45b3069c",
+        "codeSize": 27324,
+        "initcodeBytes": 27557,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 115108260,
+        "deploymentTx": "0xc24b617f839b7cfa2acabf6384173f857b55c54316776c7540e7d7f5c6c6ef47",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0xa6a4aa22d1764c513677f4bd581d76fb2ec387dd",
+        "codeSize": 27324,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 115108264,
+        "deploymentTx": "0x5d33a6c1799d08af33b6b9227de261b403e214ea5614fdef4ab7728de540f4e7",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x431557d43044ba4dc31dd2ff5ddb5fc13255f8f0",
+        "codeSize": 27324,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 115108216,
+        "deploymentTx": "0x3c5abec962c0053b23fadca8d6639d438fdc532d56744c4cf309a36270b711ca",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x346dc7e722db71f6ce29310e0c55e4eb302c3a99",
+        "codeSize": 27324,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 115108252,
+        "deploymentTx": "0x173dfe3e346abe94b0215425756953b4faf584b3f20f7844e4c1414960e5304b",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0xaf5e714415ce34c573bdd6987a9c283fb0a51359",
+        "codeSize": 27324,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 115108244,
+        "deploymentTx": "0xad7cdff4ffe87e53feb43359073c003a07233e431eddf709ce1de09886d168ad",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x5f4c79e10c1d62108dc92b614f567800deccbb10",
+        "codeSize": 27324,
+        "initcodeBytes": 27557,
+        "deployer": "0xc01381b84be86e4d3bbf4db08bc0f878d50606c1",
+        "deploymentBlock": 115108204,
+        "deploymentTx": "0x04bee97d395c4ee07ef0c34f5f21c9f35f18e005034b24de3a0c854bc71e2e5d",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0xc1cb83fe993eb8f06ddd3c98ecf6e799276f9551",
+        "codeSize": 27362,
+        "initcodeBytes": 31841,
+        "deployer": "0xe3a09dba6de8d4612e6937c79afcefe9bcf90ace",
+        "deploymentBlock": 115318415,
+        "deploymentTx": "0xbf3dcf1d89e857aaf11d5ca73148df705a67cffb3fbb4a207e5e062c474d408c",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x1a82ae47beb2f3a979b24fe22c2a293a77c0d6c9",
+        "codeSize": 26657,
+        "deployer": "0xe3a09dba6de8d4612e6937c79afcefe9bcf90ace",
+        "deploymentBlock": 115318428,
+        "deploymentTx": "0xc420a434794b1aba20ba90ebf95626c56069dd8e3a190f86f8f23daf78f354c4",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x31a0f43689a638098e210855123139c006d12a3f",
+        "codeSize": 24934,
+        "deployer": "0x4fd2aa577b8384d9b10be3b8f510cdedd9293b9b",
+        "deploymentBlock": 115332704,
+        "deploymentTx": "0x21080bfec221edd7477ed1c9c67e6154e5de283ff5ec28a2d7ed418c49f5f124",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x539c9f0669bfd542496f9cdfc041d392d6b82a44",
+        "codeSize": 40761,
+        "initcodeBytes": 42307,
+        "deployer": "0x28da9fb500d132686ba5904068a9f5ebdf63f8d9",
+        "deploymentBlock": 115389825,
+        "deploymentTx": "0xb8e7b16bed83896ebdc76cad74817862b7d439918936743be5d285da73db580f",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x03a70777fac5e8d95e84ea95d9844c563e2d9435",
+        "codeSize": 24934,
+        "deployer": "0xdb82bb9d2751803ebd4416d634cbfb710252abb4",
+        "deploymentBlock": 115332778,
+        "deploymentTx": "0xcffa15421dbf5ee438d64daaa463c16ef86476ac4e771900f915ac989fb4407a",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x85765c0670e428938bea479c4a6997538554bfa8",
+        "codeSize": 41590,
+        "initcodeBytes": 43136,
+        "deployer": "0x28da9fb500d132686ba5904068a9f5ebdf63f8d9",
+        "deploymentBlock": 115395087,
+        "deploymentTx": "0x1e5d2820780a384c773bf33f125e27607e929240a6850967c61d2c10c31a2728",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0xb0d1219c747d2730ce6dc630a73b39d1c16d404d",
+        "codeSize": 24988,
+        "initcodeBytes": 27493,
+        "deployer": "0x17a1a2e910b12fc9c1fc8000b4d94381607d71b9",
+        "deploymentBlock": 115430263,
+        "deploymentTx": "0x71c047b0ef7d36c4088b1c748378ea9d1ff31c02dfbdbe23925059933be6918a",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x2f253dc6252e2d2f3a7de67d6d8f2f75f6f4eca6",
+        "codeSize": 24834,
+        "initcodeBytes": 25475,
+        "deployer": "0xa8eb8555e44762e185caa031544694f50810f5e4",
+        "deploymentBlock": 115581281,
+        "deploymentTx": "0x6d4cc28b01379e61130cbe164e54480d44a82788ffe9047c6cda8b3687a3c2bb",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0xd993b25bc7cf9fcc140a759e6be9893165e9fde5",
+        "codeSize": 32051,
+        "initcodeBytes": 32966,
+        "deployer": "0x49ae52fb0c34313c224868018a44ae20279df527",
+        "deploymentBlock": 115625816,
+        "deploymentTx": "0x6c30a23e6664bdbd9a2c2d020396e2c0e0b15d90bfad02273e025963f07454bc",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x709ba37580a7faf034522163353bd1547d2fb0ba",
+        "codeSize": 125900,
+        "initcodeBytes": 126265,
+        "deployer": "0xa01e5634faa6242eb079c3d6d1b545d163659234",
+        "deploymentBlock": 115729244,
+        "deploymentTx": "0x77ddb15e2bc3b37f20b2b31cae1354aa17c7c005e81027ef1885bc2b7f1395c2",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x8a110d70c0393339905e1bb2e79cec7af94462a1",
+        "codeSize": 27120,
+        "initcodeBytes": 28016,
+        "deployer": "0x8897b6626433e84aaf139fcc5e030f7fb0cc7bdd",
+        "deploymentBlock": 115920385,
+        "deploymentTx": "0x71d97b03b8aa49cc9561da6672cc61c57b799bd51a44b16282d7b6c16c07b990",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x7ccf28a4275784bf078c6cffa980c2f13ad4af46",
+        "codeSize": 27120,
+        "initcodeBytes": 28016,
+        "deployer": "0x8897b6626433e84aaf139fcc5e030f7fb0cc7bdd",
+        "deploymentBlock": 115946794,
+        "deploymentTx": "0x2f419979d3f490a2728853cf3646b1e5eb30791680b1d66265820ce783545241",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0xecc79116e705dc7b86009ed44a51571e3670be3d",
+        "codeSize": 36819,
+        "initcodeBytes": 37226,
+        "deployer": "0xbb34dab96850d0b453c1f984a81bb497efb229e7",
+        "deploymentBlock": 115955575,
+        "deploymentTx": "0x5079c4353d7c297775a5b6f005e65adec2eee54b1ff6f2ecf79a71099bd6a15b",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0xcecb0137fc6fcda95358114a2198a97356094b8b",
+        "codeSize": 32695,
+        "initcodeBytes": 33123,
+        "deployer": "0xbb34dab96850d0b453c1f984a81bb497efb229e7",
+        "deploymentBlock": 115955709,
+        "deploymentTx": "0x1eaad2c64c86f8ebc687e6b2d2d0eaef57a6ac562b218e9cb21ad1e543507446",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x23af7874dddef92bd0119c4c9263d09e3b0c70c8",
+        "codeSize": 24934,
+        "initcodeBytes": 25830,
+        "deployer": "0x8897b6626433e84aaf139fcc5e030f7fb0cc7bdd",
+        "deploymentBlock": 115905120,
+        "deploymentTx": "0x24aa91a62bbc48900135821ffb0a5bbb0fed3a6d3de1f1489d20592858426fea",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0xe859389fd3ad4de7c6dbabbf762ca1de099a120b",
+        "codeSize": 60392,
+        "deployer": "0x7296d0c5e3e3e936b149d2d418d1f7c1da1ad107",
+        "deploymentBlock": 115929694,
+        "deploymentTx": "0x1bc8bceb007903724d0b48eadeb6a56853712fbecd22ba1d4c39d84032c9a570",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0xeeb87844c519798b7da2b0866d528d92b3f33a90",
+        "codeSize": 25230,
+        "initcodeBytes": 32170,
+        "deployer": "0xa6d94015419a7d91b5782333d205c153f107a150",
+        "deploymentBlock": 116046881,
+        "deploymentTx": "0x34445d4b6970ad85a243ba42fd56ee2eca7809c551dfd82dbaed458ef99b294d",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x565c980f9b9ff0d869a23a574600f000f2f2f668",
+        "codeSize": 27350,
+        "initcodeBytes": 33388,
+        "deployer": "0xa6d94015419a7d91b5782333d205c153f107a150",
+        "deploymentBlock": 116046857,
+        "deploymentTx": "0x1e3d651e1c25a364781325db658f37db4c68c551498e7f3ea7d6aef96deff830",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x1f8061d653896ff48ebfdd3fee7c0684e2995f77",
+        "codeSize": 25156,
+        "initcodeBytes": 27090,
+        "deployer": "0x87c623386314120ed44e0f710923570484cdb6d1",
+        "deploymentBlock": 116125896,
+        "deploymentTx": "0xa348e36ccf66ca953bf29a0666fed13b3e74090bf4ac98bd8a50afff4796c637",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x1269f6fd23ed0b619bfa967aec31b8df6773741d",
+        "codeSize": 99773,
+        "initcodeBytes": 99933,
+        "deployer": "0xb55cbbf9440adda5ac6888c8f49bc648f4f26134",
+        "deploymentBlock": 116136113,
+        "deploymentTx": "0x4a4758ba196705f49eaf14a5988412cf0b6cc5d9ef5fed63b6cd7f0a3b872522",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x1457c31eb744f805e3f5a3c0a369b45397acd975",
+        "codeSize": 39690,
+        "initcodeBytes": 40114,
+        "deployer": "0xe2b7f8a71d3acaebbe3bbef1b5001888ca0013c0",
+        "deploymentBlock": 116127787,
+        "deploymentTx": "0xcc872672ffa46d888fc71c51b38349ef60f8a047cabcfe2d864282135f97932b",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x4b453b395eea830c5cb208551a0326f6cd976f12",
+        "codeSize": 25156,
+        "initcodeBytes": 27090,
+        "deployer": "0x87c623386314120ed44e0f710923570484cdb6d1",
+        "deploymentBlock": 116137717,
+        "deploymentTx": "0xa1b1d9dd4a85037ef24ec8156a623c81f8b5c5d9afb8890ec9c4ebaa4144019f",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x05f6a84c7c43176c83f2dbc99670281987deb4ac",
+        "codeSize": 99772,
+        "initcodeBytes": 99932,
+        "deployer": "0xb55cbbf9440adda5ac6888c8f49bc648f4f26134",
+        "deploymentBlock": 116140800,
+        "deploymentTx": "0x06b2545bf624eefa716fb28bb229908028aa744d79f635f86dbc9c607affc05b",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0xf9749b6639a6c38f0904de9da7cf5aae6d2e9286",
+        "codeSize": 28554,
+        "initcodeBytes": 28582,
+        "deployer": "0x57f0b540f58ecee175f42c22aef0098abd8c5b17",
+        "deploymentBlock": 116141450,
+        "deploymentTx": "0x08222d7966c07c2ea6addf17fb9a2ebae4c254e79d4b620b38641e221a2dedba",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0xf640946cdb002f7e34920407c76bbb9fb2e4c6df",
+        "codeSize": 33877,
+        "initcodeBytes": 34305,
+        "deployer": "0xbb34dab96850d0b453c1f984a81bb497efb229e7",
+        "deploymentBlock": 116253858,
+        "deploymentTx": "0xa318c8b470faf848f5c73e7a825c820da2fb1ba27e28b663dfa8cd3d11e4e894",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0xe4f8671d4e81cd276c7ae9d8e8e5ffa852fe030f",
+        "codeSize": 39310,
+        "initcodeBytes": 39717,
+        "deployer": "0xbb34dab96850d0b453c1f984a81bb497efb229e7",
+        "deploymentBlock": 116253731,
+        "deploymentTx": "0x7a48ffd29ac7adc408bf2b4bc562aabf7f85294fffffa6dc931e15dd098827ae",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
+      },
+      {
+        "address": "0x9433d3af4fe8b9564e1ab2cfcfda98484c0a18c2",
+        "codeSize": 38995,
+        "initcodeBytes": 39602,
+        "deployer": "0x4cb5f7bbbc9fda9090352e08e4ffb96aecd14db4",
+        "deploymentBlock": 116234195,
+        "deploymentTx": "0x01266ee9a078d9da7d94c5c97e02e16d55befa5e27ef4562b44d9bfbf530701f",
+        "firstSeenAt": "2026-10-25T07:26:26.849Z"
       }
     ],
     "sizeDistribution": [
@@ -9814,43 +10338,43 @@
         "label": "< 2KB",
         "minBytes": 0,
         "maxBytes": 2048,
-        "count": 11845
+        "count": 11945
       },
       {
         "label": "2-4KB",
         "minBytes": 2048,
         "maxBytes": 4096,
-        "count": 5690
+        "count": 5803
       },
       {
         "label": "4-8KB",
         "minBytes": 4096,
         "maxBytes": 8192,
-        "count": 8930
+        "count": 9082
       },
       {
         "label": "8-16KB",
         "minBytes": 8192,
         "maxBytes": 16384,
-        "count": 24456
+        "count": 24618
       },
       {
         "label": "16-24KB",
         "minBytes": 16384,
         "maxBytes": 24576,
-        "count": 2766
+        "count": 2900
       },
       {
         "label": "24-48KB",
         "minBytes": 24576,
         "maxBytes": 49152,
-        "count": 857
+        "count": 909
       },
       {
         "label": "48-128KB",
         "minBytes": 49152,
         "maxBytes": 131072,
-        "count": 249
+        "count": 257
       },
       {
         "label": "≥ 128KB",
@@ -9860,12 +10384,12 @@
       }
     ],
     "largestObservedSize": 131068,
-    "totalCodeBytes": 441759098,
-    "lastProcessedBlock": 114380888,
+    "totalCodeBytes": 449986644,
+    "lastProcessedBlock": 116382303,
     "earliestScannedBlock": 62466234,
     "initcode": {
-      "contractsAboveLimit": 255,
-      "contractsWithKnownSize": 27306,
+      "contractsAboveLimit": 260,
+      "contractsWithKnownSize": 27838,
       "largestObservedSize": 133274
     },
     "methodology": {
@@ -9888,7 +10412,7 @@
     "precompile": "0x0000000000000000000000000000000000001001",
     "selector": "0x3a61584e",
     "static": {
-      "contractsScanned": 54605,
+      "contractsScanned": 55326,
       "addressReferences": 1,
       "selectorReferences": 3,
       "awareContracts": 4,
@@ -9922,16 +10446,16 @@
           "deploymentBlock": 67972761
         }
       ],
-      "lastProcessedBlock": 114380888
+      "lastProcessedBlock": 116382303
     },
     "runtime": {
       "sampleWindows": 25,
       "sampledBlocks": 1500,
       "rangeStart": 62466234,
-      "rangeEnd": 114412528,
+      "rangeEnd": 116409574,
       "callsObserved": 0,
       "uniqueCallersObserved": 0,
-      "lastSampledAt": "2026-10-18T07:44:10.228Z",
+      "lastSampledAt": "2026-10-25T07:29:10.684Z",
       "history": [
         {
           "timestamp": "2026-06-21T05:58:54.276Z",
@@ -10094,6 +10618,15 @@
           "rangeEnd": 114412528,
           "callsObserved": 0,
           "uniqueCallersObserved": 0
+        },
+        {
+          "timestamp": "2026-10-25T07:29:10.684Z",
+          "sampleWindows": 25,
+          "sampledBlocks": 1500,
+          "rangeStart": 62466234,
+          "rangeEnd": 116409574,
+          "callsObserved": 0,
+          "uniqueCallersObserved": 0
         }
       ]
     },
@@ -10117,8 +10650,8 @@
   "mip5": {
     "clz": {
       "opcodeByte": 30,
-      "contractsScanned": 54605,
-      "contractsWithOpcode": 4417,
+      "contractsScanned": 55326,
+      "contractsWithOpcode": 4502,
       "contracts": [
         {
           "address": "0xe0918b34130b9c65c7ab7863f3df9af8a8f5c411",
@@ -32204,9 +32737,434 @@
           "address": "0xc9112e6fdc7db62d0a0fb015f0057c77248380d8",
           "codeSize": 28621,
           "deploymentBlock": 114126373
+        },
+        {
+          "address": "0x7af8ef99c392389e448d6b485c72778d71dcb3a1",
+          "codeSize": 10586,
+          "deploymentBlock": 114403608
+        },
+        {
+          "address": "0xe3d6773cc09d96c424d428fe2d388b7b3f854fb9",
+          "codeSize": 8917,
+          "deploymentBlock": 114402778
+        },
+        {
+          "address": "0x39ae58a1fb0fdc18191fc2e2271b4047b54d3391",
+          "codeSize": 7454,
+          "deploymentBlock": 114499082
+        },
+        {
+          "address": "0x21ea4844009a99d26c33486149e005817c63df20",
+          "codeSize": 1568,
+          "deploymentBlock": 114516960
+        },
+        {
+          "address": "0x41d6667aa35c3634d19068a39481d4c955f6557d",
+          "codeSize": 12116,
+          "deploymentBlock": 114549753
+        },
+        {
+          "address": "0xf1670b8588b707f0abcc8dfd8e18017c3bc29cca",
+          "codeSize": 3240,
+          "deploymentBlock": 114642598
+        },
+        {
+          "address": "0x4c19f28cf73edc0c4ba2576ab5cdaff396b1aa31",
+          "codeSize": 2501,
+          "deploymentBlock": 114779308
+        },
+        {
+          "address": "0x1ee40fe5f24c31d961bbe816b51b70daf00640b0",
+          "codeSize": 10427,
+          "deploymentBlock": 114779202
+        },
+        {
+          "address": "0x5c10fb9e06a1c3e4f725ca50754bc9782237d2c4",
+          "codeSize": 1979,
+          "deploymentBlock": 114779306
+        },
+        {
+          "address": "0x2f2eda1b675a92a27b92e7b6e74b33536eaf921c",
+          "codeSize": 8500,
+          "deploymentBlock": 115013362
+        },
+        {
+          "address": "0xae73167360284bb21f425cb738d7c4133b8734a4",
+          "codeSize": 22132,
+          "deploymentBlock": 115032160
+        },
+        {
+          "address": "0xaf04f89660da12436ae69d77ac1a42c9a96a958f",
+          "codeSize": 22132,
+          "deploymentBlock": 115033145
+        },
+        {
+          "address": "0x7ac5862b679432f2ec21a5b300287f237fcd7b97",
+          "codeSize": 14541,
+          "deploymentBlock": 115039152
+        },
+        {
+          "address": "0x931cde213604caf3a9b287c40f521a8463e9aebb",
+          "codeSize": 22132,
+          "deploymentBlock": 115032647
+        },
+        {
+          "address": "0xf42371e02bbdf119b14b7a22164738b9d027e6c8",
+          "codeSize": 22132,
+          "deploymentBlock": 115033649
+        },
+        {
+          "address": "0x27aa6fd90a439497c6347040a0849cb81d176d6a",
+          "codeSize": 21404,
+          "deploymentBlock": 115064311
+        },
+        {
+          "address": "0x5fef341de1f4201bf287a072e1828a582b2600ef",
+          "codeSize": 9105,
+          "deploymentBlock": 115266428
+        },
+        {
+          "address": "0x225e48a8b4c72441239b602e64eb29575661926f",
+          "codeSize": 8493,
+          "deploymentBlock": 115287392
+        },
+        {
+          "address": "0x6f40c9e8c4a410689026670b0443ce489a0ae232",
+          "codeSize": 10127,
+          "deploymentBlock": 115316885
+        },
+        {
+          "address": "0x01e259a8f2081188bf0572ddb2e545b7f7451179",
+          "codeSize": 21008,
+          "deploymentBlock": 115317115
+        },
+        {
+          "address": "0x7720ed65f3ddfc4ad812d8a5acd25762712b513d",
+          "codeSize": 5358,
+          "deploymentBlock": 115298021
+        },
+        {
+          "address": "0x2bd1042ecd47df0e225ddbfa40cde6e3008a2fdb",
+          "codeSize": 21008,
+          "deploymentBlock": 115317991
+        },
+        {
+          "address": "0x97d2fb53bca59798721e1c2bb9e3e49b3d5108c7",
+          "codeSize": 6385,
+          "deploymentBlock": 115318439
+        },
+        {
+          "address": "0xef2e2b45ea83e52b0c6025ba0cf289b7833c8eee",
+          "codeSize": 21008,
+          "deploymentBlock": 115318837
+        },
+        {
+          "address": "0xc8731a9087ddca2f52c053ce6dab7d93f1d85a75",
+          "codeSize": 21008,
+          "deploymentBlock": 115319601
+        },
+        {
+          "address": "0x0a92fe6dcc326d80e7b99231056c31b8aee27e3d",
+          "codeSize": 23760,
+          "deploymentBlock": 115440655
+        },
+        {
+          "address": "0x07a2abae3568863060aab51b21c7a14474b4c4fb",
+          "codeSize": 23760,
+          "deploymentBlock": 115440673
+        },
+        {
+          "address": "0x4762b0423fcb874fc634a3fe8a5348afcdf3c77a",
+          "codeSize": 23760,
+          "deploymentBlock": 115440646
+        },
+        {
+          "address": "0x4802aaddb2863738b232018940de60cc09834ee5",
+          "codeSize": 23760,
+          "deploymentBlock": 115440664
+        },
+        {
+          "address": "0x908d8899795072985e35cb86da3aff88ce4e72e9",
+          "codeSize": 10976,
+          "deploymentBlock": 115489804
+        },
+        {
+          "address": "0x93c04d5397d9618792422ce84be009f9a01de330",
+          "codeSize": 22320,
+          "deploymentBlock": 115430003
+        },
+        {
+          "address": "0xbe86343e5c69f305b61680e142ada94fb4394068",
+          "codeSize": 10618,
+          "deploymentBlock": 115485922
+        },
+        {
+          "address": "0x2f253dc6252e2d2f3a7de67d6d8f2f75f6f4eca6",
+          "codeSize": 24834,
+          "deploymentBlock": 115581281
+        },
+        {
+          "address": "0xb2494538433b2fa3167a723d32329cc22c3a59c1",
+          "codeSize": 8397,
+          "deploymentBlock": 115672361
+        },
+        {
+          "address": "0x77f1f621965ef05102f89bf925e598601e6a1cf5",
+          "codeSize": 24221,
+          "deploymentBlock": 115673799
+        },
+        {
+          "address": "0xd70bb39e31e722f94ffc0502b4b8a22f02850f66",
+          "codeSize": 24221,
+          "deploymentBlock": 115673804
+        },
+        {
+          "address": "0x2f772e52a377b12bbc8d3b150175f15976ba9d29",
+          "codeSize": 24221,
+          "deploymentBlock": 115673808
+        },
+        {
+          "address": "0x0446b02dcb35652087b8604a3b52c5a5200a20d7",
+          "codeSize": 24512,
+          "deploymentBlock": 115727895
+        },
+        {
+          "address": "0x709ba37580a7faf034522163353bd1547d2fb0ba",
+          "codeSize": 125900,
+          "deploymentBlock": 115729244
+        },
+        {
+          "address": "0xf87fbf7df347409fe16a67f867c8c7bfe3904aeb",
+          "codeSize": 2406,
+          "deploymentBlock": 115727960
+        },
+        {
+          "address": "0xa43ff52f91bd75375dad5d0942f1792c675b2f90",
+          "codeSize": 24221,
+          "deploymentBlock": 115673812
+        },
+        {
+          "address": "0xb538ec091a46f10b812a6ccef6f5a460e8e31a76",
+          "codeSize": 24221,
+          "deploymentBlock": 115755125
+        },
+        {
+          "address": "0x8cd36066717ff98d86febc3294a98ac2f0095d05",
+          "codeSize": 16567,
+          "deploymentBlock": 115749283
+        },
+        {
+          "address": "0x469d62641fa86e7cb23b03c80f3da5185b4f7d2a",
+          "codeSize": 24221,
+          "deploymentBlock": 115755129
+        },
+        {
+          "address": "0xbbeee440795ace96f7b6b0d14dc06a5e6a9005d5",
+          "codeSize": 16079,
+          "deploymentBlock": 115710675
+        },
+        {
+          "address": "0x1ae00e2fb20baf50450427a4fd0319d2c0fe332b",
+          "codeSize": 24221,
+          "deploymentBlock": 115755137
+        },
+        {
+          "address": "0xb025d3caddaf2facffb18fd3cb4782842bf6389d",
+          "codeSize": 24387,
+          "deploymentBlock": 115756220
+        },
+        {
+          "address": "0x0599c453bec9bdd96ba385bff389f93ecf9d6f4f",
+          "codeSize": 24387,
+          "deploymentBlock": 115756224
+        },
+        {
+          "address": "0x15616ef9d75bcc0efd7cb093ca93218be0c02bc3",
+          "codeSize": 24387,
+          "deploymentBlock": 115756228
+        },
+        {
+          "address": "0x6e41353f936429507acad1b830849567e2cd4a1c",
+          "codeSize": 19410,
+          "deploymentBlock": 115809401
+        },
+        {
+          "address": "0x9f20c222a62c53ed2a7325be7d2d640137b0210a",
+          "codeSize": 17811,
+          "deploymentBlock": 115843120
+        },
+        {
+          "address": "0x8b007cd2d8bf7e0d7b12f5ad4ecbd72413e2bcf3",
+          "codeSize": 24221,
+          "deploymentBlock": 115755133
+        },
+        {
+          "address": "0x76e321ec7220fbbd0dc839f09251d7b058a263cf",
+          "codeSize": 24387,
+          "deploymentBlock": 115756217
+        },
+        {
+          "address": "0x55d9327b029ca834787a2e1a10ac09a56b6ba811",
+          "codeSize": 7454,
+          "deploymentBlock": 115864690
+        },
+        {
+          "address": "0x67ff0fd9c8b7b53390515af189ddeaf86dac9493",
+          "codeSize": 15333,
+          "deploymentBlock": 115897767
+        },
+        {
+          "address": "0x3c23e1e431bca5c97be858ff942bffcc23c7dc8d",
+          "codeSize": 4727,
+          "deploymentBlock": 115938865
+        },
+        {
+          "address": "0x850a4689e5241d2b4f5de7b7b65d27506006e76e",
+          "codeSize": 603,
+          "deploymentBlock": 115996072
+        },
+        {
+          "address": "0x2655395991f3e8de2bb98be3be43f59ec7ff0b46",
+          "codeSize": 13125,
+          "deploymentBlock": 115996079
+        },
+        {
+          "address": "0xabcb2ecdb4de8863caa7607265292a171458016e",
+          "codeSize": 3274,
+          "deploymentBlock": 115996084
+        },
+        {
+          "address": "0x1269f6fd23ed0b619bfa967aec31b8df6773741d",
+          "codeSize": 99773,
+          "deploymentBlock": 116136113
+        },
+        {
+          "address": "0xab8694ec52f55649286124130a10e4b1005c3f69",
+          "codeSize": 3009,
+          "deploymentBlock": 116137026
+        },
+        {
+          "address": "0x8fe44233160cd2adc6e63906a8f819c009d0c2ce",
+          "codeSize": 15306,
+          "deploymentBlock": 116105602
+        },
+        {
+          "address": "0xdb01325ee7033380d0b6e478eecf23c61e3d02b4",
+          "codeSize": 3675,
+          "deploymentBlock": 116137070
+        },
+        {
+          "address": "0xb98edb2701e02769ea4d41fef0d6325070cd4929",
+          "codeSize": 1906,
+          "deploymentBlock": 116137083
+        },
+        {
+          "address": "0x7fb22637847b9b447b3d6dd1af4dd80210510a98",
+          "codeSize": 2467,
+          "deploymentBlock": 116137095
+        },
+        {
+          "address": "0xcf8e8c462d3c14d639d5f0ee7b0269003113f732",
+          "codeSize": 2724,
+          "deploymentBlock": 116137047
+        },
+        {
+          "address": "0x7ecf60a496afdeaac4d70ef9ee3a41f8453f0e34",
+          "codeSize": 2072,
+          "deploymentBlock": 116137077
+        },
+        {
+          "address": "0x135fe0ac81934e9e078e0c5eaf28e91a5717f842",
+          "codeSize": 1556,
+          "deploymentBlock": 116137033
+        },
+        {
+          "address": "0x3ba8160b24caef306fd5774f8ef83b13bb0e7766",
+          "codeSize": 2724,
+          "deploymentBlock": 116137041
+        },
+        {
+          "address": "0x7373fecb7031a232e989316c87f89df21f41beb1",
+          "codeSize": 3897,
+          "deploymentBlock": 116137088
+        },
+        {
+          "address": "0x8a1a513962f819245e984f7e8fb9ff223d0eb71d",
+          "codeSize": 7249,
+          "deploymentBlock": 116137137
+        },
+        {
+          "address": "0x893655601ac0da856f96c0a79424504519fff2d6",
+          "codeSize": 17375,
+          "deploymentBlock": 116137192
+        },
+        {
+          "address": "0x484a0a253eb7f62de89fbcbbac8a1dee9809db59",
+          "codeSize": 797,
+          "deploymentBlock": 116137186
+        },
+        {
+          "address": "0x3d368ee46756102b0e0567f846f5ad9fcdff8a01",
+          "codeSize": 9293,
+          "deploymentBlock": 116137308
+        },
+        {
+          "address": "0x3ac0c2bf984a7415d25ad24cef9d106ca837edce",
+          "codeSize": 5603,
+          "deploymentBlock": 116137125
+        },
+        {
+          "address": "0x8b0eeeb37d408793d8f8488f55a0270b665f8698",
+          "codeSize": 7249,
+          "deploymentBlock": 116137143
+        },
+        {
+          "address": "0x76b5bdd80bc57faab729b2842ad3ac48d2aaa857",
+          "codeSize": 8690,
+          "deploymentBlock": 116137246
+        },
+        {
+          "address": "0xcbe063262b52fee67c2223a117a51d57a0f29cdf",
+          "codeSize": 2607,
+          "deploymentBlock": 116137240
+        },
+        {
+          "address": "0x7e592da28cf6b241061ab923c9e554a3b92266da",
+          "codeSize": 1206,
+          "deploymentBlock": 116137258
+        },
+        {
+          "address": "0xd2833b66062279ba68f5f5f0133e29723fc9561a",
+          "codeSize": 8066,
+          "deploymentBlock": 116137101
+        },
+        {
+          "address": "0x6fcdc6f98ab1ead21ae44f1e57f1ffeb5d3a49ff",
+          "codeSize": 6097,
+          "deploymentBlock": 116137305
+        },
+        {
+          "address": "0xf9749b6639a6c38f0904de9da7cf5aae6d2e9286",
+          "codeSize": 28554,
+          "deploymentBlock": 116141450
+        },
+        {
+          "address": "0xef3369c083b137c0fb3fa9424990726d424ac205",
+          "codeSize": 4608,
+          "deploymentBlock": 116137700
+        },
+        {
+          "address": "0xa72b6c6bc6a3c1d9aa95e0fb12c39e07a6f85f5d",
+          "codeSize": 2544,
+          "deploymentBlock": 116173049
+        },
+        {
+          "address": "0xfc36891a2b6b157422228c706bdf14757376bc46",
+          "codeSize": 6566,
+          "deploymentBlock": 116292969
         }
       ],
-      "lastProcessedBlock": 114380888
+      "lastProcessedBlock": 116382303
     },
     "modexp": {
       "precompile": "0x0000000000000000000000000000000000000005",
