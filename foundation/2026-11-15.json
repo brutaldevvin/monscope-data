@@ -1,0 +1,2887 @@
+{
+  "schema": "monscope.foundation.v1",
+  "provenance": {
+    "methodology_version": "2026-06-01",
+    "generated_at": "2026-11-15T11:41:48.407Z",
+    "sources": [
+      "monad staking precompile 0x0000000000000000000000000000000000001000",
+      "foundation fleet (20 wallets, distributor 0xf12cea359512b8ccd5e7b33b3d308a174837250c)"
+    ]
+  },
+  "snapshot_date": "2026-11-15",
+  "distributor": "0xf12cea359512b8ccd5e7b33b3d308a174837250c",
+  "fleet_hash": "sha256:713ad26e158c6d69",
+  "walletCount": 20,
+  "totalMFStakeMON": 15770000000,
+  "mfShareOfActivePct": 77.55,
+  "validatorsReceiving": 191,
+  "majorityDependentCount": 186,
+  "floorVulnerableCount": 165,
+  "perValidator": [
+    {
+      "id": 123,
+      "name": "P2P.org 💙",
+      "totalStakeMON": 282406935.02998155,
+      "mfStakeMON": 140000000,
+      "mfSharePct": 49.57,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0xa94bb28ba1d41598145110635450a3bda93e6f2c",
+          "stakeMON": 140000000
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Stakin by The Tie",
+      "totalStakeMON": 147861335.76266193,
+      "mfStakeMON": 140000000,
+      "mfSharePct": 94.68,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
+          "stakeMON": 140000000
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "01node",
+      "totalStakeMON": 154554399.2299512,
+      "mfStakeMON": 140000000,
+      "mfSharePct": 90.58,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
+          "stakeMON": 140000000
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "P-OPS Team",
+      "totalStakeMON": 142857820.99855086,
+      "mfStakeMON": 140000000,
+      "mfSharePct": 97.99,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa70fe16d3c337b9ffab9c2af8704f768503a75d9",
+          "stakeMON": 140000000
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "name": "Etherfuse",
+      "totalStakeMON": 140100051,
+      "mfStakeMON": 140000000,
+      "mfSharePct": 99.92,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x6810126a16826718fa52deada7eb979335405406",
+          "stakeMON": 140000000
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "name": "Kiln1",
+      "totalStakeMON": 141299083.45846108,
+      "mfStakeMON": 140000000,
+      "mfSharePct": 99.08,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
+          "stakeMON": 140000000
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "gmonads.com",
+      "totalStakeMON": 225111486.3437621,
+      "mfStakeMON": 130000000,
+      "mfSharePct": 57.74,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
+          "stakeMON": 130000000
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Staking4All",
+      "totalStakeMON": 146945677.22412112,
+      "mfStakeMON": 130000000,
+      "mfSharePct": 88.46,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0x84e4a2066ef7d90f57f7c437d7e0aaeca6e21a63",
+          "stakeMON": 130000000
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Alchemy",
+      "totalStakeMON": 210372902.20457628,
+      "mfStakeMON": 130000000,
+      "mfSharePct": 61.79,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0x294123afe9195652610e2320aeaae692a13f468c",
+          "stakeMON": 130000000
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "ProStaking",
+      "totalStakeMON": 145408822.31551266,
+      "mfStakeMON": 130000000,
+      "mfSharePct": 89.4,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0x6810126a16826718fa52deada7eb979335405406",
+          "stakeMON": 130000000
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "B-Harvest",
+      "totalStakeMON": 144766936.13868904,
+      "mfStakeMON": 130000000,
+      "mfSharePct": 89.79,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
+          "stakeMON": 130000000
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "polkachu.com",
+      "totalStakeMON": 282938719.23192066,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 38.87,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0xa70fe16d3c337b9ffab9c2af8704f768503a75d9",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Everstake",
+      "totalStakeMON": 143251074.66635275,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 76.78,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Bitwise Onchain Solutions",
+      "totalStakeMON": 142284696.11812267,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 77.3,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0x294123afe9195652610e2320aeaae692a13f468c",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "name": "forthenads",
+      "totalStakeMON": 131008992.1433022,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 83.96,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0x84e4a2066ef7d90f57f7c437d7e0aaeca6e21a63",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "name": "Triton one",
+      "totalStakeMON": 119734277.55625437,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 91.87,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "MAVAN",
+      "totalStakeMON": 120052394.70909655,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 91.62,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "name": "Blockdaemon",
+      "totalStakeMON": 120169656.66314171,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 91.53,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0x0638576e9aca1618302fb6215c5d88ac1d0753d7",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Luganodes",
+      "totalStakeMON": 119941674.01970026,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 91.71,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "name": "Figment",
+      "totalStakeMON": 117278198.63182524,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 93.79,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Validation Cloud",
+      "totalStakeMON": 116316839.5740966,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 94.56,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "name": "nadradar",
+      "totalStakeMON": 116249647.34028919,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 94.62,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x84e4a2066ef7d90f57f7c437d7e0aaeca6e21a63",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "name": "auri0x",
+      "totalStakeMON": 114820056.58223502,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 95.8,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Spectrum Staking",
+      "totalStakeMON": 114722761.19568509,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 95.88,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x0638576e9aca1618302fb6215c5d88ac1d0753d7",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "ContributionDAO",
+      "totalStakeMON": 113956216.56182186,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 96.52,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "L0vd",
+      "totalStakeMON": 113736774.5899261,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 96.71,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x84e4a2066ef7d90f57f7c437d7e0aaeca6e21a63",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "name": "rskl",
+      "totalStakeMON": 113731666.14030272,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 96.71,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Laminated Labs",
+      "totalStakeMON": 113644113.22636461,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 96.79,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x84e4a2066ef7d90f57f7c437d7e0aaeca6e21a63",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "name": "stakefish",
+      "totalStakeMON": 113098764.63998672,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 97.26,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x294123afe9195652610e2320aeaae692a13f468c",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "name": "H2O Nodes",
+      "totalStakeMON": 112185188.35417397,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 98.05,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x6810126a16826718fa52deada7eb979335405406",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "name": "Allnodes",
+      "totalStakeMON": 111963536.79594399,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 98.24,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "name": "Staking Facilities",
+      "totalStakeMON": 112113956.66017477,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 98.11,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x131f333782a83873d518ec0975abbc1bf07c7fa3",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "name": "InfStones",
+      "totalStakeMON": 111881246.21794403,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 98.31,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x123e92a6cdc3115d429dd42096f40495fd91d863",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "TrustedPoint",
+      "totalStakeMON": 111928482.408311,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 98.27,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x4545fd2135231bd9c4b39f3c082122c4789795da",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "name": "LI.FI",
+      "totalStakeMON": 111645234.18719234,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 98.52,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x84e4a2066ef7d90f57f7c437d7e0aaeca6e21a63",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "ASXN",
+      "totalStakeMON": 111492180.61941881,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 98.66,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x02004d41bdb94497d34cd603767e71d3127a6285",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "name": "HashKey Cloud",
+      "totalStakeMON": 111190058.30213785,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 98.92,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x4545fd2135231bd9c4b39f3c082122c4789795da",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "name": "Informal Systems",
+      "totalStakeMON": 111141070.88312516,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 98.97,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "name": "RockX",
+      "totalStakeMON": 111085273.38284384,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 99.02,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xe02556baa379a8fad78260e35236fc72a2e897af",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "name": "HoodRun",
+      "totalStakeMON": 111122503.18919218,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 98.98,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xe02556baa379a8fad78260e35236fc72a2e897af",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "name": "Asymmetric Research",
+      "totalStakeMON": 111031204.20798966,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 99.07,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xdd16b22d2f43d00fe75a5d8191634cb8279ad17d",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "name": "Cointelegraph Decentralization Guardians",
+      "totalStakeMON": 111085308.22111335,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 99.02,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 206,
+      "name": "Decentra",
+      "totalStakeMON": 111011474.92020719,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 99.08,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "1XP",
+      "totalStakeMON": 110991703.43447873,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 99.1,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x294123afe9195652610e2320aeaae692a13f468c",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "name": "Artifact",
+      "totalStakeMON": 110100928.1702789,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 99.9,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x5e5cd561c772968d739824ad834aecce78e878b4",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "name": "LootGO",
+      "totalStakeMON": 110622694.70480303,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 99.43,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Lemniscap",
+      "totalStakeMON": 110100232.32839713,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 99.9,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x123e92a6cdc3115d429dd42096f40495fd91d863",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "StakingCabin",
+      "totalStakeMON": 110594962.97960922,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 99.46,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Moonlet",
+      "totalStakeMON": 110103077.65045585,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 99.9,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xdd16b22d2f43d00fe75a5d8191634cb8279ad17d",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Chainode Tech",
+      "totalStakeMON": 110100113,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 99.9,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x294123afe9195652610e2320aeaae692a13f468c",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Qubelabs",
+      "totalStakeMON": 110100069.15914145,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 99.9,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x123e92a6cdc3115d429dd42096f40495fd91d863",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Cryptomind",
+      "totalStakeMON": 110100060.11530465,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 99.9,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "name": "QuantNode",
+      "totalStakeMON": 110100058.22780594,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 99.9,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa94bb28ba1d41598145110635450a3bda93e6f2c",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "name": "Lunar Strategy",
+      "totalStakeMON": 110100051,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 99.9,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x02004d41bdb94497d34cd603767e71d3127a6285",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 211,
+      "name": "Data Nexus",
+      "totalStakeMON": 110100051,
+      "mfStakeMON": 110000000,
+      "mfSharePct": 99.9,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
+          "stakeMON": 110000000
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "name": "CMS Holdings",
+      "totalStakeMON": 357411255.211316,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 20.98,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0x294123afe9195652610e2320aeaae692a13f468c",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Stardust Staking",
+      "totalStakeMON": 145159967.1225062,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 51.66,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0x6810126a16826718fa52deada7eb979335405406",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "MonadVision",
+      "totalStakeMON": 142056331.67168736,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 52.79,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0x02004d41bdb94497d34cd603767e71d3127a6285",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Nansen | Stake to Stack Points",
+      "totalStakeMON": 140381071.70339853,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 53.42,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0xa70fe16d3c337b9ffab9c2af8704f768503a75d9",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "name": "BitCtrl",
+      "totalStakeMON": 127606554.05226788,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 58.77,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "name": "GalaxyDigital",
+      "totalStakeMON": 114951624.64739525,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 65.24,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0x02004d41bdb94497d34cd603767e71d3127a6285",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "name": "Stake Shark",
+      "totalStakeMON": 92498356.85519019,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 81.08,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0xa70fe16d3c337b9ffab9c2af8704f768503a75d9",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "DELIGHT",
+      "totalStakeMON": 91411586.21243557,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 82.04,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Huginn",
+      "totalStakeMON": 89263260.53098668,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 84.02,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0xa94bb28ba1d41598145110635450a3bda93e6f2c",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Silk Nodes",
+      "totalStakeMON": 85786536.6924562,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 87.42,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0x02004d41bdb94497d34cd603767e71d3127a6285",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "name": "zim.one",
+      "totalStakeMON": 83205084.28192165,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 90.13,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "name": "Goldsky",
+      "totalStakeMON": 88416837.103065,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 84.82,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0xe02556baa379a8fad78260e35236fc72a2e897af",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "The Workshop",
+      "totalStakeMON": 81801230.92627293,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 91.68,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "StakeSquid",
+      "totalStakeMON": 80929455.974743,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 92.67,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x0638576e9aca1618302fb6215c5d88ac1d0753d7",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Encapsulate",
+      "totalStakeMON": 80299951.69576964,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 93.39,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "StakeCraft",
+      "totalStakeMON": 79628960.99022366,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 94.18,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x4545fd2135231bd9c4b39f3c082122c4789795da",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "name": "node101",
+      "totalStakeMON": 79710361.25932631,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 94.09,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Provalidator",
+      "totalStakeMON": 79740210.0322725,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 94.05,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Imperator.co",
+      "totalStakeMON": 79291998.3361796,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 94.58,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "name": "CroutonDigital",
+      "totalStakeMON": 79324925.92406534,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 94.54,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x6810126a16826718fa52deada7eb979335405406",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "name": "Cosmic Validator",
+      "totalStakeMON": 79034096.44229575,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 94.89,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Proof Group",
+      "totalStakeMON": 78703816.08034596,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 95.29,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x294123afe9195652610e2320aeaae692a13f468c",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Quicknode",
+      "totalStakeMON": 78328593.01809245,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 95.75,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x6810126a16826718fa52deada7eb979335405406",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Nodes.Guru",
+      "totalStakeMON": 78329659.33694275,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 95.74,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "DSRV",
+      "totalStakeMON": 78216148.73633978,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 95.88,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x131f333782a83873d518ec0975abbc1bf07c7fa3",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Firstset",
+      "totalStakeMON": 77972217.80011395,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 96.18,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x84e4a2066ef7d90f57f7c437d7e0aaeca6e21a63",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "PathrockNetwork",
+      "totalStakeMON": 77970910.691251,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 96.18,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x5e5cd561c772968d739824ad834aecce78e878b4",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "name": "blockscape",
+      "totalStakeMON": 77860674.03395753,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 96.32,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x123e92a6cdc3115d429dd42096f40495fd91d863",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "d10s",
+      "totalStakeMON": 77760253.7289461,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 96.45,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa94bb28ba1d41598145110635450a3bda93e6f2c",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "name": "Finoa Consensus Services",
+      "totalStakeMON": 77546392.04085223,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 96.71,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x131f333782a83873d518ec0975abbc1bf07c7fa3",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "LakeStake",
+      "totalStakeMON": 77683694.30680153,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 96.54,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa70fe16d3c337b9ffab9c2af8704f768503a75d9",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Node.Monster",
+      "totalStakeMON": 77475955.87830828,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 96.8,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "NodeStake",
+      "totalStakeMON": 77393888.23949647,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 96.9,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x131f333782a83873d518ec0975abbc1bf07c7fa3",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "name": "Simply Staking",
+      "totalStakeMON": 77312244.4469278,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 97,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "name": "LUX8 Validator",
+      "totalStakeMON": 77277939.37764192,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 97.05,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "name": "SenseiNode",
+      "totalStakeMON": 76944234.22332625,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 97.47,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "TheHUB X Firstset",
+      "totalStakeMON": 77199681.53026457,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 97.15,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Grassets",
+      "totalStakeMON": 76971305.61797105,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 97.43,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x131f333782a83873d518ec0975abbc1bf07c7fa3",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "name": "CosmosSpaces",
+      "totalStakeMON": 76899265.0247017,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 97.53,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x131f333782a83873d518ec0975abbc1bf07c7fa3",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "name": "JustANode",
+      "totalStakeMON": 76893816.72391933,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 97.53,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x131f333782a83873d518ec0975abbc1bf07c7fa3",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "name": "amonstaker",
+      "totalStakeMON": 76861847.9214302,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 97.57,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xe02556baa379a8fad78260e35236fc72a2e897af",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "RHINO 🦏",
+      "totalStakeMON": 76705270.13802977,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 97.77,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Brightlystake",
+      "totalStakeMON": 76733845.80396722,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 97.74,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Natsai",
+      "totalStakeMON": 76600469.81699932,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 97.91,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x4545fd2135231bd9c4b39f3c082122c4789795da",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "name": "Chainflow",
+      "totalStakeMON": 76678253.30442633,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 97.81,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa94bb28ba1d41598145110635450a3bda93e6f2c",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "coinblitz.pro",
+      "totalStakeMON": 76469812.14042574,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.07,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa70fe16d3c337b9ffab9c2af8704f768503a75d9",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "name": "Swissstarnode",
+      "totalStakeMON": 76594132.10965884,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 97.91,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x5e5cd561c772968d739824ad834aecce78e878b4",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "name": "Pointgroup",
+      "totalStakeMON": 76561609.36021994,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 97.96,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Spider Node 🕷️",
+      "totalStakeMON": 76431989.33861174,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.12,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x294123afe9195652610e2320aeaae692a13f468c",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Staker Space",
+      "totalStakeMON": 76328943.9070098,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.25,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Redundex",
+      "totalStakeMON": 76413967.7694878,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.14,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x02004d41bdb94497d34cd603767e71d3127a6285",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 207,
+      "name": "unityfarms",
+      "totalStakeMON": 76283272.23571244,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.31,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xe02556baa379a8fad78260e35236fc72a2e897af",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "name": "TServices",
+      "totalStakeMON": 76306413.64421014,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.28,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x131f333782a83873d518ec0975abbc1bf07c7fa3",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "0xHub",
+      "totalStakeMON": 76268033.15187968,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.33,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x131f333782a83873d518ec0975abbc1bf07c7fa3",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "kjnodes",
+      "totalStakeMON": 76212058.70237687,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.4,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x6810126a16826718fa52deada7eb979335405406",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "name": "Unity Nodes",
+      "totalStakeMON": 76249672.85637772,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.36,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x5e5cd561c772968d739824ad834aecce78e878b4",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "cp0x_by_STAKRspace",
+      "totalStakeMON": 76203268.67157261,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.42,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "name": "Paradise Nodes",
+      "totalStakeMON": 76187509.23104583,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.44,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xdd16b22d2f43d00fe75a5d8191634cb8279ad17d",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "DeSpread",
+      "totalStakeMON": 76210227.2434387,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.41,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Syncnode",
+      "totalStakeMON": 76202103,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.42,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "name": "Node3Tech",
+      "totalStakeMON": 76154160.05007918,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.48,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Stakely",
+      "totalStakeMON": 76172825.81053673,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.46,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x5e5cd561c772968d739824ad834aecce78e878b4",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "name": "Metatarz",
+      "totalStakeMON": 76077907.15576532,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.58,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Synergy Nodes",
+      "totalStakeMON": 76157759.5713622,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.47,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x4545fd2135231bd9c4b39f3c082122c4789795da",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "TTT VN",
+      "totalStakeMON": 76064065.52131669,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.6,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xe02556baa379a8fad78260e35236fc72a2e897af",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "BlackBlocks",
+      "totalStakeMON": 76057996.86967604,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.6,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa94bb28ba1d41598145110635450a3bda93e6f2c",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "name": "InfraSingularity",
+      "totalStakeMON": 76043981.19235498,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.62,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x123e92a6cdc3115d429dd42096f40495fd91d863",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "CertHum",
+      "totalStakeMON": 76055724.88512778,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.61,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x5e5cd561c772968d739824ad834aecce78e878b4",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "name": "Coinage x DAIC",
+      "totalStakeMON": 76047886.02193123,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.62,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "MCF",
+      "totalStakeMON": 75950003,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.74,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "name": "Republic",
+      "totalStakeMON": 75931574.94942221,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.77,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x84e4a2066ef7d90f57f7c437d7e0aaeca6e21a63",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "name": "MSC-Industries",
+      "totalStakeMON": 75922889.89038779,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.78,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x123e92a6cdc3115d429dd42096f40495fd91d863",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "name": "Tessellated",
+      "totalStakeMON": 75970011.76621784,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.72,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 209,
+      "name": "GlobalStake",
+      "totalStakeMON": 75909496.4181401,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.8,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "StarlightNode",
+      "totalStakeMON": 75879875.19039373,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.84,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x84e4a2066ef7d90f57f7c437d7e0aaeca6e21a63",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "STAKEME",
+      "totalStakeMON": 75850665.14959894,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.87,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "name": "Lavender.Five Nodes 🐝",
+      "totalStakeMON": 75850077.94856447,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.87,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa70fe16d3c337b9ffab9c2af8704f768503a75d9",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "[NODERS]",
+      "totalStakeMON": 75852730.03386723,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.87,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Validatus",
+      "totalStakeMON": 75812476.80043402,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.92,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa94bb28ba1d41598145110635450a3bda93e6f2c",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "name": "SpeedyNodes",
+      "totalStakeMON": 75823255.35474263,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.91,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "name": "Talentum Labs",
+      "totalStakeMON": 75795551.40355915,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.95,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x5e5cd561c772968d739824ad834aecce78e878b4",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "NodesHub",
+      "totalStakeMON": 75779038.44202267,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.97,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "F5 Nodes",
+      "totalStakeMON": 75764299,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 98.99,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "name": "Forest Staking",
+      "totalStakeMON": 75748405.6934458,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.01,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x02004d41bdb94497d34cd603767e71d3127a6285",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Enigma",
+      "totalStakeMON": 75750364.59049715,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x5e5cd561c772968d739824ad834aecce78e878b4",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "StakeUs",
+      "totalStakeMON": 75732786.88545986,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.03,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x6810126a16826718fa52deada7eb979335405406",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "name": "Inotel",
+      "totalStakeMON": 75730001,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.03,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa70fe16d3c337b9ffab9c2af8704f768503a75d9",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "ITRocket",
+      "totalStakeMON": 75704280.35763013,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.06,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x123e92a6cdc3115d429dd42096f40495fd91d863",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "name": "CoinSummer Labs",
+      "totalStakeMON": 75681487.54742432,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.09,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x123e92a6cdc3115d429dd42096f40495fd91d863",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Stakecito",
+      "totalStakeMON": 75686953.38195455,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.09,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x4545fd2135231bd9c4b39f3c082122c4789795da",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "name": "POSTHUMAN",
+      "totalStakeMON": 75626040.4641647,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.17,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x4545fd2135231bd9c4b39f3c082122c4789795da",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "name": "Phase Stake",
+      "totalStakeMON": 75626877.88464782,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.17,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x02004d41bdb94497d34cd603767e71d3127a6285",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "deNodes",
+      "totalStakeMON": 75541027.60414855,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.28,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "name": "FP Validated",
+      "totalStakeMON": 75620035.05649655,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.18,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x0638576e9aca1618302fb6215c5d88ac1d0753d7",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 222,
+      "name": "xLabs",
+      "totalStakeMON": 75501643.86450984,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.33,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x6810126a16826718fa52deada7eb979335405406",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Cassini",
+      "totalStakeMON": 75474700.88666324,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.37,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xe02556baa379a8fad78260e35236fc72a2e897af",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "name": "r93AX Nodes",
+      "totalStakeMON": 75451090.64400242,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.4,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "name": "BlockPro",
+      "totalStakeMON": 75442965.47373572,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.41,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x6810126a16826718fa52deada7eb979335405406",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "name": "Pharus",
+      "totalStakeMON": 75424196.36648747,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.43,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xdd16b22d2f43d00fe75a5d8191634cb8279ad17d",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "name": "Nodeify",
+      "totalStakeMON": 75212151.36246137,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.71,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "GO2Pro",
+      "totalStakeMON": 75441568.17442858,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.41,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x0638576e9aca1618302fb6215c5d88ac1d0753d7",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "name": "AiNodes",
+      "totalStakeMON": 75170586.9116309,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.77,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x5e5cd561c772968d739824ad834aecce78e878b4",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "name": "LuckyResearch Labs",
+      "totalStakeMON": 75154036,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.79,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x4545fd2135231bd9c4b39f3c082122c4789795da",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "name": "Hex Trust",
+      "totalStakeMON": 75141593,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.81,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "name": "Blocash",
+      "totalStakeMON": 75101702,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.86,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x294123afe9195652610e2320aeaae692a13f468c",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "name": "Validatrium",
+      "totalStakeMON": 75101245.43366115,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.86,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x02004d41bdb94497d34cd603767e71d3127a6285",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "name": "EmberStake",
+      "totalStakeMON": 75120008.00070928,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.84,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "DTEAM",
+      "totalStakeMON": 75103350.99684632,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.86,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "name": "Obelisk",
+      "totalStakeMON": 75100105.45910746,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.86,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x0638576e9aca1618302fb6215c5d88ac1d0753d7",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "name": "GulfLabs",
+      "totalStakeMON": 75100042.85057464,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.86,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "name": "Pacific Meta",
+      "totalStakeMON": 75100003,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.86,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Needlecast",
+      "totalStakeMON": 75100003,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.86,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "FTP",
+      "totalStakeMON": 75100004,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.86,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x131f333782a83873d518ec0975abbc1bf07c7fa3",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "StakeAngle",
+      "totalStakeMON": 75100003,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.86,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x0638576e9aca1618302fb6215c5d88ac1d0753d7",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "name": "CHAIN DIGITAL",
+      "totalStakeMON": 75100001,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.86,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x294123afe9195652610e2320aeaae692a13f468c",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 210,
+      "name": "VALIDEXIS",
+      "totalStakeMON": 75100001,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.86,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa94bb28ba1d41598145110635450a3bda93e6f2c",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "name": "Astrosynx",
+      "totalStakeMON": 75100001,
+      "mfStakeMON": 75000000,
+      "mfSharePct": 99.86,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x84e4a2066ef7d90f57f7c437d7e0aaeca6e21a63",
+          "stakeMON": 75000000
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "name": "Kraken",
+      "totalStakeMON": 416459799.8508124,
+      "mfStakeMON": 35000000,
+      "mfSharePct": 8.4,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0x0638576e9aca1618302fb6215c5d88ac1d0753d7",
+          "stakeMON": 35000000
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "name": "Gemini",
+      "totalStakeMON": 121253279.0173083,
+      "mfStakeMON": 35000000,
+      "mfSharePct": 28.86,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": false,
+      "contributions": [
+        {
+          "wallet": "0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
+          "stakeMON": 35000000
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Chainlayer",
+      "totalStakeMON": 39446514.01574001,
+      "mfStakeMON": 35000000,
+      "mfSharePct": 88.72,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x84e4a2066ef7d90f57f7c437d7e0aaeca6e21a63",
+          "stakeMON": 35000000
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Omakase",
+      "totalStakeMON": 36507709.73731108,
+      "mfStakeMON": 35000000,
+      "mfSharePct": 95.87,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xdd16b22d2f43d00fe75a5d8191634cb8279ad17d",
+          "stakeMON": 35000000
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "name": "Fountainhead",
+      "totalStakeMON": 35848721.07956311,
+      "mfStakeMON": 35000000,
+      "mfSharePct": 97.63,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
+          "stakeMON": 35000000
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Ledger by P2P.org",
+      "totalStakeMON": 40787192.136871934,
+      "mfStakeMON": 35000000,
+      "mfSharePct": 85.81,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
+          "stakeMON": 35000000
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Meria",
+      "totalStakeMON": 35487813.82181368,
+      "mfStakeMON": 35000000,
+      "mfSharePct": 98.62,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
+          "stakeMON": 35000000
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Stakeware",
+      "totalStakeMON": 35566533.07311832,
+      "mfStakeMON": 35000000,
+      "mfSharePct": 98.4,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x4545fd2135231bd9c4b39f3c082122c4789795da",
+          "stakeMON": 35000000
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "✅ CryptoCrew",
+      "totalStakeMON": 35441781.27533321,
+      "mfStakeMON": 35000000,
+      "mfSharePct": 98.75,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x123e92a6cdc3115d429dd42096f40495fd91d863",
+          "stakeMON": 35000000
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "BlockPI",
+      "totalStakeMON": 35393103.56012794,
+      "mfStakeMON": 35000000,
+      "mfSharePct": 98.88,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa94bb28ba1d41598145110635450a3bda93e6f2c",
+          "stakeMON": 35000000
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "name": "BlockHunters 🎯",
+      "totalStakeMON": 35373375.717503145,
+      "mfStakeMON": 35000000,
+      "mfSharePct": 98.94,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa70fe16d3c337b9ffab9c2af8704f768503a75d9",
+          "stakeMON": 35000000
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "name": "BitGo",
+      "totalStakeMON": 35300021.88782101,
+      "mfStakeMON": 35000000,
+      "mfSharePct": 99.15,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x131f333782a83873d518ec0975abbc1bf07c7fa3",
+          "stakeMON": 35000000
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "name": "DIN",
+      "totalStakeMON": 35200003,
+      "mfStakeMON": 35000000,
+      "mfSharePct": 99.43,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
+          "stakeMON": 35000000
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Kukis Global",
+      "totalStakeMON": 35252423.526034065,
+      "mfStakeMON": 35000000,
+      "mfSharePct": 99.28,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
+          "stakeMON": 35000000
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "name": "Animoca Brands",
+      "totalStakeMON": 35190533.371305816,
+      "mfStakeMON": 35000000,
+      "mfSharePct": 99.45,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x5e5cd561c772968d739824ad834aecce78e878b4",
+          "stakeMON": 35000000
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Ghost",
+      "totalStakeMON": 35148906.477473475,
+      "mfStakeMON": 35000000,
+      "mfSharePct": 99.57,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
+          "stakeMON": 35000000
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "name": "Ankr",
+      "totalStakeMON": 35131165.7,
+      "mfStakeMON": 35000000,
+      "mfSharePct": 99.62,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x294123afe9195652610e2320aeaae692a13f468c",
+          "stakeMON": 35000000
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "name": "AltLayer",
+      "totalStakeMON": 35122335.10466578,
+      "mfStakeMON": 35000000,
+      "mfSharePct": 99.65,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0xe02556baa379a8fad78260e35236fc72a2e897af",
+          "stakeMON": 35000000
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Staketab",
+      "totalStakeMON": 35100758.24556531,
+      "mfStakeMON": 35000000,
+      "mfSharePct": 99.71,
+      "mfWalletCount": 1,
+      "fallsBelowFloorIfMFLeaves": true,
+      "contributions": [
+        {
+          "wallet": "0x6810126a16826718fa52deada7eb979335405406",
+          "stakeMON": 35000000
+        }
+      ]
+    }
+  ]
+}
