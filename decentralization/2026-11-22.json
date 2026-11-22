@@ -1,0 +1,1328 @@
+{
+  "schema": "monscope.decentralization.v1",
+  "captured_at": "2026-11-22T07:19:54.900Z",
+  "snapshot_date": "2026-11-22",
+  "provenance": {
+    "methodology_version": "2026-06-01",
+    "generated_at": "2026-11-22T07:19:54.900Z",
+    "sources": [
+      "monad staking precompile 0x0000000000000000000000000000000000001000",
+      "validator-info registry (monad-developers/validator-info)",
+      "gmonads.com geo index",
+      "foundation fleet (src/data/foundation-wallets.ts)"
+    ]
+  },
+  "epoch": 2488,
+  "metrics": {
+    "stake": {
+      "totalStakeMON": 20723756037.03322,
+      "meanStakeMON": 105196731.15245289,
+      "medianStakeMON": 76896410.556716,
+      "minStakeMON": 25268794.05747514,
+      "maxStakeMON": 2241746146.9298186,
+      "gini": 0.29477435702964105,
+      "hhi": 168.28354516024527,
+      "nakamoto": {
+        "liveness": 27,
+        "safety": 97
+      },
+      "shares": {
+        "top1": 10.81,
+        "top3": 14.56,
+        "top5": 17.36,
+        "top10": 22.18,
+        "top20": 29.1,
+        "top33": 36.92,
+        "top67": 55.24
+      },
+      "buckets": [
+        {
+          "label": "10–25M MON",
+          "minMON": 10000000,
+          "maxMON": 25000000,
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "label": "25–50M MON",
+          "minMON": 25000000,
+          "maxMON": 50000000,
+          "count": 18,
+          "pct": 9.1
+        },
+        {
+          "label": "50–100M MON",
+          "minMON": 50000000,
+          "maxMON": 100000000,
+          "count": 112,
+          "pct": 56.9
+        },
+        {
+          "label": "100–250M MON",
+          "minMON": 100000000,
+          "maxMON": 250000000,
+          "count": 61,
+          "pct": 31
+        },
+        {
+          "label": "250M–1B MON",
+          "minMON": 250000000,
+          "maxMON": 1000000000,
+          "count": 5,
+          "pct": 2.5
+        },
+        {
+          "label": "≥ 1B MON",
+          "minMON": 1000000000,
+          "maxMON": null,
+          "count": 1,
+          "pct": 0.5
+        }
+      ]
+    },
+    "commission": {
+      "meanPct": 13.939086294416244,
+      "medianPct": 15,
+      "minPct": 0,
+      "maxPct": 15,
+      "atVdpCap": 171,
+      "atZero": 5,
+      "buckets": [
+        {
+          "label": "0%",
+          "minPct": 0,
+          "maxPct": 0.001,
+          "count": 5,
+          "pct": 2.5
+        },
+        {
+          "label": "0–5%",
+          "minPct": 0.001,
+          "maxPct": 5,
+          "count": 2,
+          "pct": 1
+        },
+        {
+          "label": "5–10%",
+          "minPct": 5,
+          "maxPct": 10,
+          "count": 4,
+          "pct": 2
+        },
+        {
+          "label": "10–15%",
+          "minPct": 10,
+          "maxPct": 15,
+          "count": 15,
+          "pct": 7.6
+        },
+        {
+          "label": "15% (cap)",
+          "minPct": 15,
+          "maxPct": 15.001,
+          "count": 171,
+          "pct": 86.8
+        },
+        {
+          "label": ">15%",
+          "minPct": 15.001,
+          "maxPct": 101,
+          "count": 0,
+          "pct": 0
+        }
+      ]
+    },
+    "active_set": {
+      "active": 197,
+      "pendingEntry": 0,
+      "pendingExit": 0,
+      "eligible": 0,
+      "activeCap": 200
+    },
+    "geo": {
+      "uniqueCountries": 30,
+      "unknownCount": 0,
+      "countries": [
+        {
+          "label": "United States",
+          "code": "US",
+          "validatorCount": 49,
+          "stakeMON": 4499817373.323671,
+          "stakePct": 21.71
+        },
+        {
+          "label": "The Netherlands",
+          "code": "NL",
+          "validatorCount": 12,
+          "stakeMON": 3346815757.535564,
+          "stakePct": 16.15
+        },
+        {
+          "label": "Germany",
+          "code": "DE",
+          "validatorCount": 31,
+          "stakeMON": 3030426957.792152,
+          "stakePct": 14.62
+        },
+        {
+          "label": "Finland",
+          "code": "FI",
+          "validatorCount": 13,
+          "stakeMON": 1233065202.6803458,
+          "stakePct": 5.95
+        },
+        {
+          "label": "Singapore",
+          "code": "SG",
+          "validatorCount": 14,
+          "stakeMON": 1207786320.039466,
+          "stakePct": 5.83
+        },
+        {
+          "label": "France",
+          "code": "FR",
+          "validatorCount": 8,
+          "stakeMON": 783478482.8876871,
+          "stakePct": 3.78
+        },
+        {
+          "label": "Poland",
+          "code": "PL",
+          "validatorCount": 8,
+          "stakeMON": 655942568.5849863,
+          "stakePct": 3.17
+        },
+        {
+          "label": "Ireland",
+          "code": "IE",
+          "validatorCount": 4,
+          "stakeMON": 639229294.3937843,
+          "stakePct": 3.08
+        },
+        {
+          "label": "Sweden",
+          "code": "SE",
+          "validatorCount": 7,
+          "stakeMON": 570971595.0697553,
+          "stakePct": 2.76
+        },
+        {
+          "label": "United Kingdom",
+          "code": "GB",
+          "validatorCount": 5,
+          "stakeMON": 561183833.4283936,
+          "stakePct": 2.71
+        },
+        {
+          "label": "Austria",
+          "code": "AT",
+          "validatorCount": 7,
+          "stakeMON": 529811262.4473459,
+          "stakePct": 2.56
+        },
+        {
+          "label": "South Africa",
+          "code": "ZA",
+          "validatorCount": 4,
+          "stakeMON": 444721267.4749765,
+          "stakePct": 2.15
+        },
+        {
+          "label": "Australia",
+          "code": "AU",
+          "validatorCount": 5,
+          "stakeMON": 427388951.2143283,
+          "stakePct": 2.06
+        },
+        {
+          "label": "Canada",
+          "code": "CA",
+          "validatorCount": 5,
+          "stakeMON": 417717413.0753647,
+          "stakePct": 2.02
+        },
+        {
+          "label": "Slovakia",
+          "code": "SK",
+          "validatorCount": 2,
+          "stakeMON": 271043710.4633976,
+          "stakePct": 1.31
+        },
+        {
+          "label": "Japan",
+          "code": "JP",
+          "validatorCount": 3,
+          "stakeMON": 263677236.1903581,
+          "stakePct": 1.27
+        },
+        {
+          "label": "Norway",
+          "code": "NO",
+          "validatorCount": 2,
+          "stakeMON": 223822928.73227254,
+          "stakePct": 1.08
+        },
+        {
+          "label": "Lithuania",
+          "code": "LT",
+          "validatorCount": 3,
+          "stakeMON": 220390605.69709134,
+          "stakePct": 1.06
+        },
+        {
+          "label": "India",
+          "code": "IN",
+          "validatorCount": 2,
+          "stakeMON": 209590757.59425494,
+          "stakePct": 1.01
+        },
+        {
+          "label": "Brazil",
+          "code": "BR",
+          "validatorCount": 2,
+          "stakeMON": 157310010.77018994,
+          "stakePct": 0.76
+        },
+        {
+          "label": "Romania",
+          "code": "RO",
+          "validatorCount": 1,
+          "stakeMON": 156176124.75266385,
+          "stakePct": 0.75
+        },
+        {
+          "label": "South Korea",
+          "code": "KR",
+          "validatorCount": 1,
+          "stakeMON": 143502454.52174944,
+          "stakePct": 0.69
+        },
+        {
+          "label": "Costa Rica",
+          "code": "CR",
+          "validatorCount": 1,
+          "stakeMON": 130642287.40066212,
+          "stakePct": 0.63
+        },
+        {
+          "label": "Russia",
+          "code": "RU",
+          "validatorCount": 1,
+          "stakeMON": 113672971.41004997,
+          "stakePct": 0.55
+        },
+        {
+          "label": "Italy",
+          "code": "IT",
+          "validatorCount": 1,
+          "stakeMON": 110620734.03001283,
+          "stakePct": 0.53
+        },
+        {
+          "label": "Hong Kong",
+          "code": "HK",
+          "validatorCount": 2,
+          "stakeMON": 110567050.10883611,
+          "stakePct": 0.53
+        },
+        {
+          "label": "Malta",
+          "code": "MT",
+          "validatorCount": 1,
+          "stakeMON": 77431614.47870153,
+          "stakePct": 0.37
+        },
+        {
+          "label": "Spain",
+          "code": "ES",
+          "validatorCount": 1,
+          "stakeMON": 76028015.58041099,
+          "stakePct": 0.37
+        },
+        {
+          "label": "Denmark",
+          "code": "DK",
+          "validatorCount": 1,
+          "stakeMON": 75823255.35474263,
+          "stakePct": 0.37
+        },
+        {
+          "label": "Ukraine",
+          "code": "UA",
+          "validatorCount": 1,
+          "stakeMON": 35100000,
+          "stakePct": 0.17
+        }
+      ],
+      "countryGini": 0.6233443510305776,
+      "topCountryPct": 21.71,
+      "countryNakamoto": 2,
+      "providers": [
+        {
+          "label": "TeraSwitch Networks Inc.",
+          "code": "AS20326",
+          "validatorCount": 11,
+          "stakeMON": 3426173118.327179,
+          "stakePct": 16.53
+        },
+        {
+          "label": "OVH SAS",
+          "code": "AS16276",
+          "validatorCount": 33,
+          "stakeMON": 3054114947.2049985,
+          "stakePct": 14.74
+        },
+        {
+          "label": "UAB \"Cherry Servers\"",
+          "code": "AS204770",
+          "validatorCount": 27,
+          "stakeMON": 2365669996.167715,
+          "stakePct": 11.42
+        },
+        {
+          "label": "Hetzner Online GmbH",
+          "code": "AS24940",
+          "validatorCount": 25,
+          "stakeMON": 2346233137.9031878,
+          "stakePct": 11.32
+        },
+        {
+          "label": "Latitude.sh",
+          "code": "AS396356",
+          "validatorCount": 14,
+          "stakeMON": 1080200585.933273,
+          "stakePct": 5.21
+        },
+        {
+          "label": "Servers.com, Inc.",
+          "code": "AS7979",
+          "validatorCount": 5,
+          "stakeMON": 749399094.9806246,
+          "stakePct": 3.62
+        },
+        {
+          "label": "velia.net Internetdienste GmbH",
+          "code": "AS29066",
+          "validatorCount": 7,
+          "stakeMON": 505244456.2481683,
+          "stakePct": 2.44
+        },
+        {
+          "label": "MEVSPACE sp. z o.o.",
+          "code": "AS201814",
+          "validatorCount": 5,
+          "stakeMON": 433733287.10871136,
+          "stakePct": 2.09
+        },
+        {
+          "label": "Amazon.com, Inc.",
+          "code": "AS16509",
+          "validatorCount": 1,
+          "stakeMON": 417288737.5167792,
+          "stakePct": 2.01
+        },
+        {
+          "label": "GTHost",
+          "code": "AS63023",
+          "validatorCount": 5,
+          "stakeMON": 376597232.9970832,
+          "stakePct": 1.82
+        },
+        {
+          "label": "Markley Network Services, LLC",
+          "code": "AS398427",
+          "validatorCount": 1,
+          "stakeMON": 359953336.8929618,
+          "stakePct": 1.74
+        },
+        {
+          "label": "Nessus GmbH",
+          "code": "AS47692",
+          "validatorCount": 4,
+          "stakeMON": 342821828.44618416,
+          "stakePct": 1.65
+        },
+        {
+          "label": "WebNX, Inc.",
+          "code": "AS18450",
+          "validatorCount": 4,
+          "stakeMON": 339307547.9878628,
+          "stakePct": 1.64
+        },
+        {
+          "label": "Allnodes Inc",
+          "code": "AS395201",
+          "validatorCount": 3,
+          "stakeMON": 330665890.52437615,
+          "stakePct": 1.6
+        },
+        {
+          "label": "Amarutu Technology Ltd",
+          "code": "AS206264",
+          "validatorCount": 4,
+          "stakeMON": 303982550.55671597,
+          "stakePct": 1.47
+        },
+        {
+          "label": "Interserver, Inc",
+          "code": "AS19318",
+          "validatorCount": 4,
+          "stakeMON": 301586706.11076516,
+          "stakePct": 1.46
+        },
+        {
+          "label": "VNET a.s.",
+          "code": "AS29405",
+          "validatorCount": 2,
+          "stakeMON": 271043710.4633976,
+          "stakePct": 1.31
+        },
+        {
+          "label": "iiNet Connect Pty Ltd",
+          "code": "AS329360",
+          "validatorCount": 2,
+          "stakeMON": 254087686.75979516,
+          "stakePct": 1.23
+        },
+        {
+          "label": "ServeTheWorld AS",
+          "code": "AS34989",
+          "validatorCount": 2,
+          "stakeMON": 223822928.73227254,
+          "stakePct": 1.08
+        },
+        {
+          "label": "Limestone Networks, Inc.",
+          "code": "AS46475",
+          "validatorCount": 2,
+          "stakeMON": 189955383.68513525,
+          "stakePct": 0.92
+        },
+        {
+          "label": "HOSTKEY B.V.",
+          "code": "AS57043",
+          "validatorCount": 2,
+          "stakeMON": 186648749.6104238,
+          "stakePct": 0.9
+        },
+        {
+          "label": "01NODE FUNDING SRL",
+          "code": "AS41536",
+          "validatorCount": 1,
+          "stakeMON": 156176124.75266385,
+          "stakePct": 0.75
+        },
+        {
+          "label": "Michael Sebastian Schinzel trading as IP-Projects GmbH & Co. KG",
+          "code": "AS48314",
+          "validatorCount": 2,
+          "stakeMON": 151890186.76817054,
+          "stakePct": 0.73
+        },
+        {
+          "label": "velia.net",
+          "code": "AS30083",
+          "validatorCount": 2,
+          "stakeMON": 151695935.6833272,
+          "stakePct": 0.73
+        },
+        {
+          "label": "Digiweb ltd",
+          "code": "AS31122",
+          "validatorCount": 2,
+          "stakeMON": 145400950.05809993,
+          "stakePct": 0.7
+        },
+        {
+          "label": "DartPoints Operating Company, LLC",
+          "code": "AS20355",
+          "validatorCount": 1,
+          "stakeMON": 143687414.06291562,
+          "stakePct": 0.69
+        },
+        {
+          "label": "Equinix (EMEA) Acquisition Enterprises B.V.",
+          "code": "AS15830",
+          "validatorCount": 1,
+          "stakeMON": 143502454.52174944,
+          "stakePct": 0.69
+        },
+        {
+          "label": "Comunicaciones Metropolitanas METROCOM, S.A.",
+          "code": "AS266853",
+          "validatorCount": 1,
+          "stakeMON": 130642287.40066212,
+          "stakePct": 0.63
+        },
+        {
+          "label": "Telasera Technologies PTY LTD",
+          "code": "AS328723",
+          "validatorCount": 1,
+          "stakeMON": 114820056.58223502,
+          "stakePct": 0.55
+        },
+        {
+          "label": "JSC Selectel",
+          "code": "AS50340",
+          "validatorCount": 1,
+          "stakeMON": 113672971.41004997,
+          "stakePct": 0.55
+        },
+        {
+          "label": "uvensys GmbH",
+          "code": "AS58010",
+          "validatorCount": 1,
+          "stakeMON": 112585947.5292925,
+          "stakePct": 0.54
+        },
+        {
+          "label": "ReliableSite.Net LLC",
+          "code": "AS23470",
+          "validatorCount": 1,
+          "stakeMON": 112383602.19439797,
+          "stakePct": 0.54
+        },
+        {
+          "label": "IPAX GmbH",
+          "code": "AS44133",
+          "validatorCount": 2,
+          "stakeMON": 111333251.72184065,
+          "stakePct": 0.54
+        },
+        {
+          "label": "Tier 4 Cloud Services",
+          "code": "AS146943",
+          "validatorCount": 1,
+          "stakeMON": 89946446.99150349,
+          "stakePct": 0.43
+        },
+        {
+          "label": "Google Fiber Inc.",
+          "code": "AS16591",
+          "validatorCount": 1,
+          "stakeMON": 88164335.47199087,
+          "stakePct": 0.43
+        },
+        {
+          "label": "KAUA REIS DA SILVA trading as BattleHost",
+          "code": "AS210356",
+          "validatorCount": 1,
+          "stakeMON": 80929455.974743,
+          "stakePct": 0.39
+        },
+        {
+          "label": "Skoed Limited",
+          "code": "AS200295",
+          "validatorCount": 1,
+          "stakeMON": 77431614.47870153,
+          "stakePct": 0.37
+        },
+        {
+          "label": "Blacknight Internet Solutions Limited",
+          "code": "AS39122",
+          "validatorCount": 1,
+          "stakeMON": 76539606.8189053,
+          "stakePct": 0.37
+        },
+        {
+          "label": "Latitude.sh LTDA",
+          "code": "AS262287",
+          "validatorCount": 1,
+          "stakeMON": 76435380.17987749,
+          "stakePct": 0.37
+        },
+        {
+          "label": "Fusix Networks B.V.",
+          "code": "AS57866",
+          "validatorCount": 1,
+          "stakeMON": 76198483.49463254,
+          "stakePct": 0.37
+        },
+        {
+          "label": "Lucky Friday Labs, LLC",
+          "code": "AS27424",
+          "validatorCount": 1,
+          "stakeMON": 75975215.90374123,
+          "stakePct": 0.37
+        },
+        {
+          "label": "23M GmbH",
+          "code": "AS47447",
+          "validatorCount": 1,
+          "stakeMON": 75953713.37852055,
+          "stakePct": 0.37
+        },
+        {
+          "label": "WIIT AG",
+          "code": "AS24961",
+          "validatorCount": 1,
+          "stakeMON": 75890177.0748829,
+          "stakePct": 0.37
+        },
+        {
+          "label": "Bo data ApS",
+          "code": "AS49974",
+          "validatorCount": 1,
+          "stakeMON": 75823255.35474263,
+          "stakePct": 0.37
+        },
+        {
+          "label": "Dimension Data",
+          "code": "AS3741",
+          "validatorCount": 1,
+          "stakeMON": 75813524.13294633,
+          "stakePct": 0.37
+        },
+        {
+          "label": "Evolus IT Solutions GmbH",
+          "code": "AS215120",
+          "validatorCount": 1,
+          "stakeMON": 75656182.27932112,
+          "stakePct": 0.37
+        },
+        {
+          "label": "Leaseweb Canada Inc.",
+          "code": "AS32613",
+          "validatorCount": 1,
+          "stakeMON": 75442965.47373572,
+          "stakePct": 0.36
+        },
+        {
+          "label": "Eons Data Communications Limited",
+          "code": "AS138997",
+          "validatorCount": 1,
+          "stakeMON": 75100000,
+          "stakePct": 0.36
+        },
+        {
+          "label": "FiberState, LLC",
+          "code": "AS26042",
+          "validatorCount": 1,
+          "stakeMON": 35566533.07311832,
+          "stakePct": 0.17
+        },
+        {
+          "label": "FOUNTAINHEAD TECHNOLOGIES LIMITED",
+          "code": "AS207075",
+          "validatorCount": 1,
+          "stakeMON": 35467050.10883611,
+          "stakePct": 0.17
+        },
+        {
+          "label": "PE Freehost",
+          "code": "AS42331",
+          "validatorCount": 1,
+          "stakeMON": 35100000,
+          "stakePct": 0.17
+        }
+      ],
+      "topProviderPct": 16.53,
+      "providerNakamoto": 3,
+      "uniqueAsns": 57
+    }
+  },
+  "foundation": {
+    "status": "identified",
+    "addresses": [
+      "0xfb9683b11c6a93cedc69e62b6f9738e11cf9aef3",
+      "0x84e4a2066ef7d90f57f7c437d7e0aaeca6e21a63",
+      "0x649ddcdf59b91f907c9150eacee70a7fa164ce86",
+      "0xaaa10c4d02b1774afb402890e3d311cf9e726e9a",
+      "0x294123afe9195652610e2320aeaae692a13f468c",
+      "0x131f333782a83873d518ec0975abbc1bf07c7fa3",
+      "0x6810126a16826718fa52deada7eb979335405406",
+      "0xfd5a009ddcc9777a000ed9eb742a1c4d898976fc",
+      "0x02004d41bdb94497d34cd603767e71d3127a6285",
+      "0xe02556baa379a8fad78260e35236fc72a2e897af",
+      "0x5e5cd561c772968d739824ad834aecce78e878b4",
+      "0x123e92a6cdc3115d429dd42096f40495fd91d863",
+      "0xa70fe16d3c337b9ffab9c2af8704f768503a75d9",
+      "0xa94bb28ba1d41598145110635450a3bda93e6f2c",
+      "0x4545fd2135231bd9c4b39f3c082122c4789795da",
+      "0xa9b43b5cd76076d85ac548e73dafb9ebb2532f1c",
+      "0xc0acbbc1a159e31a50062e2801f19b98f605fb75",
+      "0x11489da8902369eb31e29d8a1b30a9f00947d5aa",
+      "0x0638576e9aca1618302fb6215c5d88ac1d0753d7",
+      "0xdd16b22d2f43d00fe75a5d8191634cb8279ad17d"
+    ],
+    "totalStakeMON": 16125000000,
+    "validatorsReceiving": 194,
+    "foundationShareOfActiveStake": 77.8,
+    "vulnerableValidatorCount": 169,
+    "majorityDependentCount": 188,
+    "topRecipients": [
+      {
+        "validatorId": 221,
+        "validatorName": "Uphold",
+        "stakeMON": 140000000,
+        "validatorTotalStakeMON": 140105245,
+        "sharePctOfValidator": 99.92
+      },
+      {
+        "validatorId": 186,
+        "validatorName": "Etherfuse",
+        "stakeMON": 140000000,
+        "validatorTotalStakeMON": 140100051,
+        "sharePctOfValidator": 99.92
+      },
+      {
+        "validatorId": 54,
+        "validatorName": "Chainode Tech",
+        "stakeMON": 110000000,
+        "validatorTotalStakeMON": 110100113,
+        "sharePctOfValidator": 99.9
+      },
+      {
+        "validatorId": 52,
+        "validatorName": "Cryptomind",
+        "stakeMON": 110000000,
+        "validatorTotalStakeMON": 110100060,
+        "sharePctOfValidator": 99.9
+      },
+      {
+        "validatorId": 214,
+        "validatorName": "Lunar Strategy",
+        "stakeMON": 110000000,
+        "validatorTotalStakeMON": 110100051,
+        "sharePctOfValidator": 99.9
+      },
+      {
+        "validatorId": 211,
+        "validatorName": "Data Nexus",
+        "stakeMON": 110000000,
+        "validatorTotalStakeMON": 110100051,
+        "sharePctOfValidator": 99.9
+      },
+      {
+        "validatorId": 141,
+        "validatorName": "Artifact",
+        "stakeMON": 110000000,
+        "validatorTotalStakeMON": 110100928,
+        "sharePctOfValidator": 99.9
+      },
+      {
+        "validatorId": 99,
+        "validatorName": "Qubelabs",
+        "stakeMON": 110000000,
+        "validatorTotalStakeMON": 110100069,
+        "sharePctOfValidator": 99.9
+      },
+      {
+        "validatorId": 20,
+        "validatorName": "Lemniscap",
+        "stakeMON": 110000000,
+        "validatorTotalStakeMON": 110100232,
+        "sharePctOfValidator": 99.9
+      },
+      {
+        "validatorId": 143,
+        "validatorName": "QuantNode",
+        "stakeMON": 110000000,
+        "validatorTotalStakeMON": 110100058,
+        "sharePctOfValidator": 99.9
+      }
+    ]
+  },
+  "top_validators": [
+    {
+      "rank": 1,
+      "id": 97,
+      "name": "Backpack",
+      "stakeMON": 2241746146.9298186,
+      "sharePct": 10.82,
+      "commissionPct": 5,
+      "website": "https://backpack.exchange/",
+      "x": "https://x.com/Backpack"
+    },
+    {
+      "rank": 2,
+      "id": 165,
+      "name": "Kraken",
+      "stakeMON": 417288737.5167792,
+      "sharePct": 2.01,
+      "commissionPct": 15,
+      "website": "https://www.kraken.com",
+      "x": "https://x.com/krakenfx/"
+    },
+    {
+      "rank": 3,
+      "id": 92,
+      "name": "CMS Holdings",
+      "stakeMON": 359953336.89296186,
+      "sharePct": 1.74,
+      "commissionPct": 4,
+      "website": "http://cmsholdings.io/",
+      "x": "https://x.com/cmsholdings"
+    },
+    {
+      "rank": 4,
+      "id": 102,
+      "name": "polkachu.com",
+      "stakeMON": 292894722.2646071,
+      "sharePct": 1.41,
+      "commissionPct": 0,
+      "website": "https://www.polkachu.com",
+      "x": "https://x.com/polka_chu"
+    },
+    {
+      "rank": 5,
+      "id": 123,
+      "name": "P2P.org 💙",
+      "stakeMON": 287143725.18025684,
+      "sharePct": 1.39,
+      "commissionPct": 15,
+      "website": "http://p2p.org/",
+      "x": "https://x.com/P2Pvalidator"
+    },
+    {
+      "rank": 6,
+      "id": 179,
+      "name": "LeMonad",
+      "stakeMON": 254984336.56596643,
+      "sharePct": 1.23,
+      "commissionPct": 3,
+      "website": "https://lemonad.pro/",
+      "x": "https://x.com/LeMonad_pro"
+    },
+    {
+      "rank": 7,
+      "id": 3,
+      "name": "gmonads.com",
+      "stakeMON": 222677192.3338538,
+      "sharePct": 1.07,
+      "commissionPct": 15,
+      "website": "https://www.gmonads.com/",
+      "x": "https://x.com/gmonads"
+    },
+    {
+      "rank": 8,
+      "id": 5,
+      "name": "Alchemy",
+      "stakeMON": 209364083.51027033,
+      "sharePct": 1.01,
+      "commissionPct": 10,
+      "website": "https://www.alchemy.com",
+      "x": "https://x.com/Alchemy"
+    },
+    {
+      "rank": 9,
+      "id": 55,
+      "name": "Stardust Staking",
+      "stakeMON": 156320947.4767257,
+      "sharePct": 0.75,
+      "commissionPct": 15,
+      "website": "https://starduststaking.com",
+      "x": "https://x.com/StardustStaking"
+    },
+    {
+      "rank": 10,
+      "id": 72,
+      "name": "01node",
+      "stakeMON": 156176124.75266385,
+      "sharePct": 0.75,
+      "commissionPct": 15,
+      "website": "https://01node.com",
+      "x": "https://x.com/01node"
+    },
+    {
+      "rank": 11,
+      "id": 10,
+      "name": "Stakin by The Tie",
+      "stakeMON": 147747420.4070148,
+      "sharePct": 0.71,
+      "commissionPct": 10,
+      "website": "https://stakin.com/",
+      "x": "https://x.com/StakinOfficial"
+    },
+    {
+      "rank": 12,
+      "id": 7,
+      "name": "Staking4All",
+      "stakeMON": 146725322.75908008,
+      "sharePct": 0.71,
+      "commissionPct": 10,
+      "website": "https://www.staking4all.org/",
+      "x": "https://x.com/staking4all"
+    },
+    {
+      "rank": 13,
+      "id": 6,
+      "name": "ProStaking",
+      "stakeMON": 143687414.06291562,
+      "sharePct": 0.69,
+      "commissionPct": 15,
+      "website": "https://prostaking.com/",
+      "x": "https://x.com/ProStaking_"
+    },
+    {
+      "rank": 14,
+      "id": 4,
+      "name": "B-Harvest",
+      "stakeMON": 143502454.52174944,
+      "sharePct": 0.69,
+      "commissionPct": 15,
+      "website": "https://bharvest.io",
+      "x": "https://x.com/B__Harvest"
+    },
+    {
+      "rank": 15,
+      "id": 43,
+      "name": "P-OPS Team",
+      "stakeMON": 142901139.72991842,
+      "sharePct": 0.69,
+      "commissionPct": 15,
+      "website": "https://www.pops.one",
+      "x": "https://x.com/POpsTeam1"
+    },
+    {
+      "rank": 16,
+      "id": 9,
+      "name": "Everstake",
+      "stakeMON": 142875298.6469908,
+      "sharePct": 0.69,
+      "commissionPct": 15,
+      "website": "https://everstake.com/",
+      "x": "https://twitter.com/everstake_pool"
+    },
+    {
+      "rank": 17,
+      "id": 12,
+      "name": "Bitwise Onchain Solutions",
+      "stakeMON": 142353657.81183153,
+      "sharePct": 0.69,
+      "commissionPct": 15,
+      "website": "https://onchain.bitwiseinvestments.com",
+      "x": "https://x.com/Bitwise"
+    },
+    {
+      "rank": 18,
+      "id": 187,
+      "name": "Kiln1",
+      "stakeMON": 141462737.01200312,
+      "sharePct": 0.68,
+      "commissionPct": 15,
+      "website": "https://kiln.fi",
+      "x": "https://x.com/Kiln_finance"
+    },
+    {
+      "rank": 19,
+      "id": 16,
+      "name": "MonadVision",
+      "stakeMON": 141206943.76955885,
+      "sharePct": 0.68,
+      "commissionPct": 15,
+      "website": "https://blockvision.org",
+      "x": "https://x.com/blockvisionhq"
+    },
+    {
+      "rank": 20,
+      "id": 227,
+      "name": "Dirol Labs",
+      "stakeMON": 140520224,
+      "sharePct": 0.68,
+      "commissionPct": 15,
+      "website": "https://dirol.io/",
+      "x": "https://x.com/DirolLabsX"
+    },
+    {
+      "rank": 21,
+      "id": 221,
+      "name": "Uphold",
+      "stakeMON": 140105245,
+      "sharePct": 0.68,
+      "commissionPct": 0,
+      "website": "https://uphold.com/en-us",
+      "x": "https://x.com/UpholdInc"
+    },
+    {
+      "rank": 22,
+      "id": 186,
+      "name": "Etherfuse",
+      "stakeMON": 140100051,
+      "sharePct": 0.68,
+      "commissionPct": 15,
+      "website": "https://www.etherfuse.com/",
+      "x": "https://x.com/etherfuse"
+    },
+    {
+      "rank": 23,
+      "id": 23,
+      "name": "Nansen | Stake to Stack Points",
+      "stakeMON": 139697772.18491647,
+      "sharePct": 0.67,
+      "commissionPct": 15,
+      "website": "https://www.nansen.ai",
+      "x": "https://x.com/nansen_ai"
+    },
+    {
+      "rank": 24,
+      "id": 154,
+      "name": "forthenads",
+      "stakeMON": 130642287.40066212,
+      "sharePct": 0.63,
+      "commissionPct": 15,
+      "website": "https://forthenads.xyz",
+      "x": "https://x.com/forthenads"
+    },
+    {
+      "rank": 25,
+      "id": 191,
+      "name": "BitCtrl",
+      "stakeMON": 123545915.86607215,
+      "sharePct": 0.6,
+      "commissionPct": 15,
+      "website": "https://www.bitctrl.io/",
+      "x": "https://x.com/BitCtrl_io"
+    },
+    {
+      "rank": 26,
+      "id": 125,
+      "name": "Blockdaemon",
+      "stakeMON": 120053076.34833491,
+      "sharePct": 0.58,
+      "commissionPct": 10,
+      "website": "https://www.blockdaemon.com/",
+      "x": "https://x.com/BlockdaemonHQ"
+    },
+    {
+      "rank": 27,
+      "id": 169,
+      "name": "Gemini",
+      "stakeMON": 119860210.46938212,
+      "sharePct": 0.58,
+      "commissionPct": 15,
+      "website": "https://gemini.com/staking",
+      "x": "https://x.com/Gemini"
+    },
+    {
+      "rank": 28,
+      "id": 76,
+      "name": "Luganodes",
+      "stakeMON": 119644310.60275143,
+      "sharePct": 0.58,
+      "commissionPct": 15,
+      "website": "https://luganodes.com/",
+      "x": "https://x.com/luganodes"
+    },
+    {
+      "rank": 29,
+      "id": 170,
+      "name": "Triton one",
+      "stakeMON": 119510757.30707614,
+      "sharePct": 0.58,
+      "commissionPct": 10,
+      "website": "https://triton.one",
+      "x": "https://x.com/triton_one/"
+    },
+    {
+      "rank": 30,
+      "id": 11,
+      "name": "MAVAN",
+      "stakeMON": 118215675.72268143,
+      "sharePct": 0.57,
+      "commissionPct": 10,
+      "website": "https://www.bitminetech.io/",
+      "x": "https://x.com/BitMNR"
+    },
+    {
+      "rank": 31,
+      "id": 129,
+      "name": "Figment",
+      "stakeMON": 116617461.78966229,
+      "sharePct": 0.56,
+      "commissionPct": 15,
+      "website": "https://figment.io",
+      "x": "https://x.com/Figment_io"
+    },
+    {
+      "rank": 32,
+      "id": 114,
+      "name": "nadradar",
+      "stakeMON": 116161088.0676627,
+      "sharePct": 0.56,
+      "commissionPct": 15,
+      "website": "https://nadradar.com",
+      "x": "https://x.com/nad_radar"
+    },
+    {
+      "rank": 33,
+      "id": 78,
+      "name": "Validation Cloud",
+      "stakeMON": 116101447.26548266,
+      "sharePct": 0.56,
+      "commissionPct": 15,
+      "website": "https://www.validationcloud.io",
+      "x": "https://x.com/validationcloud"
+    },
+    {
+      "rank": 34,
+      "id": 160,
+      "name": "GalaxyDigital",
+      "stakeMON": 115189273.0339596,
+      "sharePct": 0.56,
+      "commissionPct": 5,
+      "website": "https://www.galaxy.com/",
+      "x": "https://x.com/galaxyhq"
+    },
+    {
+      "rank": 35,
+      "id": 98,
+      "name": "auri0x",
+      "stakeMON": 114820056.58223502,
+      "sharePct": 0.55,
+      "commissionPct": 15,
+      "website": "https://auri0x.io",
+      "x": "https://x.com/Auri_0x"
+    },
+    {
+      "rank": 36,
+      "id": 46,
+      "name": "Spectrum Staking",
+      "stakeMON": 114722762.98667191,
+      "sharePct": 0.55,
+      "commissionPct": 15,
+      "website": "https://spectrumstaking.net/",
+      "x": "https://x.com/SpectrumStaking"
+    },
+    {
+      "rank": 37,
+      "id": 56,
+      "name": "L0vd",
+      "stakeMON": 113719848.42273392,
+      "sharePct": 0.55,
+      "commissionPct": 15,
+      "website": "https://l0vd.com/",
+      "x": "https://x.com/L0vdstaking"
+    },
+    {
+      "rank": 38,
+      "id": 157,
+      "name": "rskl",
+      "stakeMON": 113672971.41004997,
+      "sharePct": 0.55,
+      "commissionPct": 15,
+      "website": "https://rskl.xyz/",
+      "x": "https://x.com/rsklwtf"
+    },
+    {
+      "rank": 39,
+      "id": 26,
+      "name": "ContributionDAO",
+      "stakeMON": 113635006.59808998,
+      "sharePct": 0.55,
+      "commissionPct": 15,
+      "website": "https://staking.contributiondao.com/",
+      "x": "https://x.com/contributedao"
+    },
+    {
+      "rank": 40,
+      "id": 75,
+      "name": "Laminated Labs",
+      "stakeMON": 113572634.80789159,
+      "sharePct": 0.55,
+      "commissionPct": 15,
+      "website": "https://laminatedlabs.com/",
+      "x": "https://x.com/LaminatedLabs"
+    },
+    {
+      "rank": 41,
+      "id": 152,
+      "name": "stakefish",
+      "stakeMON": 113128644.91847639,
+      "sharePct": 0.55,
+      "commissionPct": 15,
+      "website": "https://stake.fish",
+      "x": "https://x.com/stakefish"
+    },
+    {
+      "rank": 42,
+      "id": 133,
+      "name": "H2O Nodes",
+      "stakeMON": 112585947.5292925,
+      "sharePct": 0.54,
+      "commissionPct": 15,
+      "website": "https://h2o-nodes.com/",
+      "x": "https://x.com/H2oNodes"
+    },
+    {
+      "rank": 43,
+      "id": 229,
+      "name": "cortex-global",
+      "stakeMON": 112383602.19439797,
+      "sharePct": 0.54,
+      "commissionPct": 10,
+      "website": "https://www.cortexglobal.xyz/",
+      "x": "https://x.com/Cortex_Global_"
+    },
+    {
+      "rank": 44,
+      "id": 94,
+      "name": "TrustedPoint",
+      "stakeMON": 111983812.83511807,
+      "sharePct": 0.54,
+      "commissionPct": 15,
+      "website": "https://trusted-point.com",
+      "x": "https://x.com/Trusted_Point"
+    },
+    {
+      "rank": 45,
+      "id": 172,
+      "name": "Allnodes",
+      "stakeMON": 111934348.38473055,
+      "sharePct": 0.54,
+      "commissionPct": 10,
+      "website": "https://www.allnodes.com",
+      "x": "https://x.com/allnodes"
+    },
+    {
+      "rank": 46,
+      "id": 159,
+      "name": "InfStones",
+      "stakeMON": 111727615.03331347,
+      "sharePct": 0.54,
+      "commissionPct": 15,
+      "website": "https://infstones.com/",
+      "x": "https://x.com/InfStones"
+    },
+    {
+      "rank": 47,
+      "id": 181,
+      "name": "LI.FI",
+      "stakeMON": 111694928.35281624,
+      "sharePct": 0.54,
+      "commissionPct": 15,
+      "website": "https://li.fi/",
+      "x": "https://x.com/lifiprotocol"
+    },
+    {
+      "rank": 48,
+      "id": 100,
+      "name": "ASXN",
+      "stakeMON": 111626789.63364212,
+      "sharePct": 0.54,
+      "commissionPct": 15,
+      "website": "https://asxn.xyz/",
+      "x": "https://x.com/asxn_r"
+    },
+    {
+      "rank": 49,
+      "id": 146,
+      "name": "RockX",
+      "stakeMON": 111610083.7477366,
+      "sharePct": 0.54,
+      "commissionPct": 15,
+      "website": "https://www.rockx.com/",
+      "x": "https://x.com/rockx_official"
+    },
+    {
+      "rank": 50,
+      "id": 138,
+      "name": "HashKey Cloud",
+      "stakeMON": 111321371.0214067,
+      "sharePct": 0.54,
+      "commissionPct": 10,
+      "website": "https://www.hashkey.cloud/",
+      "x": "https://x.com/HashKeyCloud"
+    }
+  ]
+}

@@ -398,5 +398,21 @@
     "foundation_validators_receiving": 191,
     "majority_dependent": 186,
     "floor_vulnerable": 165
+  },
+  {
+    "date": "2026-11-22",
+    "epoch": 2488,
+    "nakamoto_liveness": 27,
+    "nakamoto_safety": 97,
+    "gini": 0.2948,
+    "hhi": 168,
+    "top10_share_pct": 22.18,
+    "active_validators": 197,
+    "commission_at_vdp_cap": 171,
+    "foundation_share_pct": 77.8,
+    "foundation_total_mon": 16125000000,
+    "foundation_validators_receiving": 194,
+    "majority_dependent": 188,
+    "floor_vulnerable": 169
   }
 ]
